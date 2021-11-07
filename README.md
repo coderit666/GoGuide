@@ -21,7 +21,7 @@
 
 # GoGuide 学习路线图
 
-![](https://cdn.nlark.com/yuque/0/2021/png/12653647/1636188921143-68fa59ee-5ccd-4b11-80b8-b8fec635f1db.png?x-oss-process=image%2Fresize%2Cw_1500%2Climit_0)
+![](https://cdn.nlark.com/yuque/0/2021/png/12653647/1636272970231-97d51ea2-1e4c-4f91-becb-f101e9d9b026.png?x-oss-process=image%2Fresize%2Cw_1100%2Climit_0)
 
 # C 语言
 
