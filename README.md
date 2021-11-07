@@ -1,7 +1,7 @@
 > 1. **介绍**：**GoGuide** 致力于打造最易懂的 Go语言教程，`让天下没有难学的 Go 语言`
 > 2. **PDF版本** ： [**GoGuide** PDF1.0 版本下载](https://pan.baidu.com/s/18FhBCx9izSP-kXPRwN1YBA)  提取码：dmqx 
 > 4. **转载须知** ：以下所有文章与视频教程皆为我的原创，转载请联系我们，如发现恶意抄袭/搬运，会动用法律武器维护自己的权益，让我们一起维护一个良好的技术创作环境！
-> 4. Star/Fork 支持：开源不易，如果开源项目帮助你打开 Go 语言的学习大门，希望你能 **Star** 支持我们，你的支持就是我们持续更新的动力。
+> 4. **Star/Fork 支持**：开源不易，如果开源项目帮助你打开 Go 语言的学习大门，希望你能 **Star** 支持我们，你的支持就是我们持续更新的动力。
 
 <p align="center">
   <a href="https://mp.weixin.qq.com/s/PpeblHk6Ml4w8iNrrw8UAA"><img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB-read-brightgreen" alt="在线阅读"></a>
@@ -24,9 +24,6 @@
 
 ![](https://cdn.nlark.com/yuque/0/2021/png/12653647/1636188921143-68fa59ee-5ccd-4b11-80b8-b8fec635f1db.png?x-oss-process=image%2Fresize%2Cw_1500%2Climit_0)
 
-# 目录
-
-[TOC]
 
 # C 语言
 
