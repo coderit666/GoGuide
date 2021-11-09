@@ -7994,7 +7994,7 @@ func main() {
 
 **《C语言保姆级教程》:**《**Go语言保姆级教程**》PDF 版本在[微信公众号](#公众号)后台回复 **"书籍"** 即可免费领取！
 
-![我的公众号](https://cdn.nlark.com/yuque/0/2021/jpeg/12653647/1635665327539-b1156e20-fe8c-430b-9c24-1f3b834942ac.jpeg)
+![我的公众号](https://cdn.nlark.com/yuque/0/2021/png/12653647/1636445801751-365907e4-cc4d-4db3-b806-d8105c605f81.png?x-oss-process=image%2Fresize%2Cw_1500%2Climit_0)
 
 
 
