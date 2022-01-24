@@ -1280,7 +1280,7 @@ int main(){
 
 		var num2 float32 = 3.14
 		// 不能将其它基本类型强制转换为字符串类型
-    // Cannot convert an expression of the type 'float32' to the type 'string'
+		// Cannot convert an expression of the type 'float32' to the type 'string'
 		var str2 string = string(num2)
 		fmt.Println(str2)
 
