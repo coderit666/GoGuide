@@ -1310,8 +1310,9 @@ int main(){
 		// 第二个参数: 转换为什么格式,f小数格式, e指数格式
 		// 第三个参数: 转换之后保留多少位小数, 传入-1按照指定类型有效位保留
 		// 第四个参数: 被转换数据的实际位数,float32就传32, float64就传64
+
 		// 将float64位实型,按照小数格式并保留默认有效位转换为字符串
-		str3 := strconv.FormatFloat(num5, 'f', -1, 64)
+		str3 := strconv.FormatFloat(num5, 'f', -1, 32)
 		fmt.Println(str3) // 3.1234567
 		str4 := strconv.FormatFloat(num5, 'f', -1, 64)
 		fmt.Println(str4) // 3.1234567890123457
@@ -1320,8 +1321,8 @@ int main(){
 		fmt.Println(str5) // 3.12
 		// 将float64位实型,按照指数格式并保留2位有效位转换为字符串
 		str6 := strconv.FormatFloat(num5, 'e', 2, 64)
-		fmt.Println(str6) // 3.12
-
+		fmt.Println(str6) // 3.12e+00
+		
 		var num6 bool = true
 		str7 := strconv.FormatBool(num6)
 		fmt.Println(str7) // true
