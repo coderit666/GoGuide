@@ -3644,7 +3644,7 @@ package main
   import "fmt"
   func main() {
 	str := "abcdefg"
-	// 通过字符串生成切片
+	// 通过字符串切片 生成新字符串
 	sce1 := str[3:]
 	fmt.Println(sce1) // defg
   
