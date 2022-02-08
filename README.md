@@ -495,7 +495,7 @@ func  (接收者 接受者类型)函数名称(形参列表)(返回值列表) {
 - Vim(初学者入门门槛高)
 - VSCode(不喜欢)
 - Sublime Test(不喜欢)
-- GoLand(喜欢,当收费)
+- GoLand(喜欢,但收费)
 - LiteIDE（开源免费， 跨平台运行，轻量级）
 - 生男生女都一样， 最关键是你中意哪个就用哪个
 ---
@@ -1260,7 +1260,7 @@ int main(){
 	
 		var num7 rune = 11
 		var num8 int32
-		num8 = num7 // 这里不是隐式转换, 不报错的原因是byte的本质就是int32
+		num8 = num7 // 这里不是隐式转换, 不报错的原因是rune的本质就是int32
 		fmt.Println(num8)
 	}
   ```
