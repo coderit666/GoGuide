@@ -94,6 +94,4 @@ func main() {
     }else{
         fmt.Println(string(buf))
     }
-    
-    
 }
