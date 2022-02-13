@@ -7321,7 +7321,7 @@ func main() {
   + ![](https://img-blog.csdnimg.cn/img_convert/0e4cca798a1aaa7a523221c4943da25e.png)
 - Channel是线程安全的, 也就是自带锁定功能
 - Channel声明和初始化
-  + 声明: ```var 变量名chan 数据类型```
+  + 声明: ```var 变量名 chan 数据类型```
   + 初始化: ```mych := make(chan 数据类型, 容量)```
   + Channel和切片还有字典一样, 必须make之后才能使用
   + Channel和切片还有字典一样, 是引用类型
