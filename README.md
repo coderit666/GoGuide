@@ -1,5 +1,5 @@
-> 1. **介绍**：**GoGuide** 致力于打造最易懂的 Go语言教程，`让天下没有难学的 Go 语言` 
-> 2. **PDF版本** ： [**GoGuide** PDF1.0 版本下载](https://pan.baidu.com/s/1GRzdSG1cfvkL0AFvnK3N6Q )  提取码：dmqx 
+> 1. **介绍**：**GoGuide** 致力于打造最易懂的 Go语言教程，`让天下没有难学的 Go 语言`
+> 2. **PDF版本** ： [**GoGuide** PDF1.0 版本下载](https://pan.baidu.com/s/1GRzdSG1cfvkL0AFvnK3N6Q )  提取码：dmqx
 > 3. **转载须知** ：以下所有文章与视频教程皆为我的原创，转载请联系我们，如发现恶意抄袭/搬运，会动用法律武器维护自己的权益，让我们一起维护一个良好的技术创作环境！
 > 4. **Star/Fork 支持**：开源不易，如果开源项目帮助你打开 Go 语言的学习大门，希望你能 **Star** 支持我们，你的支持就是我们持续更新的动力。
 > 5. **视频教程**：待开源 ......
@@ -63,7 +63,7 @@
 - 内置强大的工具
   + Go语言里面内置了很多工具链，最好的应该是gofmt工具，自动化格式化代码，能够让团队review变得如此的简单，代码格式一模一样，想不一样都很困难
 - 性能优势: Go 极其地快。其性能与 C 或 C++相似。在我们的使用中，Go 一般比 Python 要快 30 倍左右
-  +  语言层面支持并发，这个就是Go最大的特色，天生的支持并发，可以充分的利用多核，很容易的使用并发 
+  +  语言层面支持并发，这个就是Go最大的特色，天生的支持并发，可以充分的利用多核，很容易的使用并发
   +  内置runtime，支持垃圾回收
 - ... ...
 
@@ -84,7 +84,7 @@
 2013年4月08日，Go语言的第二个Go 1.1beta2测试版发布。
 2013年5月02日，Go语言Go 1.1RC1版发布。
 2013年5月07日，Go语言Go 1.1RC2版发布。
-2013年5月09日，Go语言Go 1.1RC3版发布。 
+2013年5月09日，Go语言Go 1.1RC3版发布。
 2013年5月13日，Go语言Go 1.1正式版发布。
 2013年9月20日，Go语言Go 1.2RC1版发布。
 2013年12月1日，Go语言Go 1.2正式版发布。
@@ -107,13 +107,13 @@
 - 多次获得TIOBE年度最佳语言
 ![](https://img-blog.csdnimg.cn/img_convert/0f2100411dec241d1055d364b6a7ce62.png)
 
-- 2018年Go语言一度超过Java, [进入编程语言排行榜前三名](https://www.hntrends.com/2018/jul-top-ten-programming-languages.html). 
+- 2018年Go语言一度超过Java, [进入编程语言排行榜前三名](https://www.hntrends.com/2018/jul-top-ten-programming-languages.html).
   ![](https://img-blog.csdnimg.cn/img_convert/62c7d630590f5caabdeac1a3af5383af.png)
 - 从公司角度:
   + [许多大厂](https://github.com/golang/go/wiki/GoUsers)都已经拥抱 Go 语言，包括阿里巴巴、京东、今日头条、小米、滴滴、七牛云、360等明星公司, 也包括知乎、轻松筹、快手、探探、美图、猎豹移动等等。同时，创业公司也很喜欢 Go 语言，主要因为其入门快、程序库多、运行迅速，很适合快速构建互联网软件产品。
 - 从业务维度:
   + Go 程序可以在装有 Windows、Linux、FreeBSD 等操作系统的服务器上运行，并用于提供基础软件支撑、API 服务、Web 服务、网页服务等等。
-  + 在云计算、微服务、大数据、区块链、物联网等领域，Go 语言早已蓬勃发展. 除了语法简单, 性能优越以外, K8S底层架构在云计算的领导地位(```K8S就是Go开发的```), 也让这些各大公司不得不拥抱Go语言。 
+  + 在云计算、微服务、大数据、区块链、物联网等领域，Go 语言早已蓬勃发展. 除了语法简单, 性能优越以外, K8S底层架构在云计算的领导地位(```K8S就是Go开发的```), 也让这些各大公司不得不拥抱Go语言。
   + 区块链的崛起更进一步带动了Go工程师的需求,市面上大部分区块链明星项目都是用Go开发的, 足以说明Go在分布式系统中的地位，这也就是为什么今年开始，大批金融公司开始招聘Go工程师的重要原因。
 - 从薪资角度来看
   + 应届生普遍在`4~8K`,  1年左右普遍在`10K左右`, 2年~3年普遍在`20K左右`
@@ -132,7 +132,7 @@
 - Go语言被称之为现代化的C语言, 所以无论是从语法特性, 还是作者本身, Go语言都与C语言有着莫大的关系, 所以学习本套课程之前如果你有C语言的基础, 那么将会事半功倍
 - 对于初学者而言, 学习编程的捷径只有一条, 那就是**多动手**
 
-> 竹子用了4年的时间， 仅仅长了3cm， 从第五年开始， 以每天30cm的速度疯狂地生长， 仅仅用了六周的时间就长到了15米。 其实，在前面的四年， 竹子将根在土壤里延伸了数百平米。 做人做事亦是如此， 不要担心你此时此刻的付出得不到回报， 因为这些付出都是为了扎根。 
+> 竹子用了4年的时间， 仅仅长了3cm， 从第五年开始， 以每天30cm的速度疯狂地生长， 仅仅用了六周的时间就长到了15米。 其实，在前面的四年， 竹子将根在土壤里延伸了数百平米。 做人做事亦是如此， 不要担心你此时此刻的付出得不到回报， 因为这些付出都是为了扎根。
 
 ---
 
@@ -343,7 +343,7 @@ const 变量名称 数据类型 = 值;
 |>>	|右移运算符,右移n位就是除以2的n次方| B >> 2|
 |&^|逻辑清零运算符, B对应位是1,A对应位清零,B对应位是0, A对应位保留原样| A &^ B|
 
-```
+```go
 int main(){
 	/*
 	  0110      a
@@ -449,7 +449,7 @@ func  (接收者 接受者类型)函数名称(形参列表)(返回值列表) {
 - 并发
 - 反射
 - 异常处理
-- .... 
+- ....
 ## Go语言SDK安装和配置
 - **什么是SDK**
   + 软件开发工具包（外语首字母缩写：**SDK**、外语全称：**SoftwareDevelopmentKit）**一般都是一些软件工程师为特定的软件包、软件框架、硬件平台、操作系统等建立应用软件时的开发工具的集合
@@ -495,13 +495,13 @@ func  (接收者 接受者类型)函数名称(形参列表)(返回值列表) {
 - Vim(初学者入门门槛高)
 - VSCode(不喜欢)
 - Sublime Test(不喜欢)
-- GoLand(喜欢,当收费)
+- GoLand(喜欢,但收费)
 - LiteIDE（开源免费， 跨平台运行，轻量级）
 - 生男生女都一样， 最关键是你中意哪个就用哪个
 ---
 ## Goland安装
 - 下载安装包: [点我下载Goland](https://pan.baidu.com/s/1gQIt7JyEx7UpdqZeBOnxhA )
-- 提取码：lm7v 
+- 提取码：lm7v
 - 运行安装文件
 ![](https://img-blog.csdnimg.cn/img_convert/1d5d134a1f556831f9ca1a7af28cfc2c.png)
 - 疯狂下一步
@@ -571,7 +571,7 @@ func main() {
 ```
 ---
 ## Go语言HelloWorld和C语言HelloWorld异同
--  ***1.文件类型不同***
+- ***1.文件类型不同***
     + C语言代码保存在.c为后缀的文件中
     + Go语言代码保存在.go为后缀的文件中
 - ***2.代码管理方式不同***
@@ -583,10 +583,10 @@ func main() {
     + 我们会把不同类型的代码放到不同的.go文件中,然后通过package给该文件指定一个包名
     + 需要使用时直接通过import导入对应的包名即可
       ![](https://img-blog.csdnimg.cn/img_convert/adf488f9d219e4302544bce1ed21ddd7.png)
--  **3.main函数书写文件不同**
+- **3.main函数书写文件不同**
   + C语言中main函数可以写在任意文件中, 只要保证一个程序只有一个main函数即可
   + Go语言中main函数只能写在包名为main的文件夹中, 同样需要保存一个程序只有一个main函数
--  ***4.函数编写的格式不同***
+- ***4.函数编写的格式不同***
     + C语言中函数的格式为
       + 注意:C语言函数的左括号可以和函数名称在同一行, 也可以不在同一行
 ```go
@@ -604,7 +604,7 @@ func  函数名称(形参列表)(返回值列表) {
         return 返回值;
 }
 ```
--  ***5.函数调用的格式不同***
+- ***5.函数调用的格式不同***
    + C语言通过#include导入.h文件后,直接通过函数名称调用函数
    + Go语言通过import导入对应的包后,需要通过包名.函数名称的方式调用
 ```c
@@ -628,7 +628,7 @@ func main() {
 	fmt.Println("res1 = ", res)
 }
 ```
--  ***6.语句的结束方式不同***
+- ***6.语句的结束方式不同***
     + C语言中每条语句都必须以分号结尾
     + Go语言中每条语句后面不用添加分号(编译器会自动添加)
 ```c
@@ -734,55 +734,54 @@ func main() {
   + 标识符严格区分大小写, test和Test是两个不同的标识符
 - 和C语言标识符命名规则不同的是
   + Go语言中_单独作为标识符出现时, 代表`空标识符`, 它对应的值会被忽略
-  ```go
-	package main
-	
-	import "fmt"
-	
-	func main() {
-		// 将常量10保存到名称叫做num的变量中
-		var num int = 10
-		fmt.Println("num = ", num)
-	
-		// 忽略常量20,不会分配存储空间,也不会保存常量20
-		//var _ int = 20
-		//fmt.Println("_ = ", _) // cannot use _ as value
-	
-		// Go语言中如果定义了变量没有使用, 那么编译会报错(sub declared and not used)
-		// 所以如果我们只使用了sum,没有使用sub会报错
-		// 为了解决这个问题, 我们可以使用_忽略sub的值
-		//var sum, sub int = calculate(20, 10)
-		var sum, _ int = calculate(20, 10)
-		fmt.Println("sum = ", sum)
-	
-	}
-	
-	func calculate(a, b int)(int, int)  {
-		var sum int = a + b
-		var sub int = a - b
-		return sum, sub
-	}
-  
-  ​```go
+```go
+package main
+
+import "fmt"
+
+func main() {
+	// 将常量10保存到名称叫做num的变量中
+	var num int = 10
+	fmt.Println("num = ", num)
+
+	// 忽略常量20,不会分配存储空间,也不会保存常量20
+	//var _ int = 20
+	//fmt.Println("_ = ", _) // cannot use _ as value
+
+	// Go语言中如果定义了变量没有使用, 那么编译会报错(sub declared and not used)
+	// 所以如果我们只使用了sum,没有使用sub会报错
+	// 为了解决这个问题, 我们可以使用_忽略sub的值
+	//var sum, sub int = calculate(20, 10)
+	var sum, _ int = calculate(20, 10)
+	fmt.Println("sum = ", sum)
+
+}
+
+func calculate(a, b int)(int, int)  {
+	var sum int = a + b
+	var sub int = a - b
+	return sum, sub
+}
+```
   + Go语言默认的编码方式就是UTF-8, 所以Go语言支持中文, 所以可以用中文作为标识符(非常非常非常不推荐)
-  ​```go
-  package main
-  
-  import "fmt"
-  
-  func main() {
-	  // 不会报错, 可以正常运行
-	  var 年龄 int = 33
-	  fmt.Println("年龄 = ", 年龄) // 33
-  
-	  // 不会报错, 可以正常运行
-	  var 结果 int = 计算器(10, 20)
-	  fmt.Println("结果 = ", 结果) // 30
-  }
-  func 计算器(第一个变量, 第二个变量 int)int  {
-	  return 第一个变量 + 第二个变量
-  }
-  ```
+```go
+package main
+
+import "fmt"
+
+func main() {
+	// 不会报错, 可以正常运行
+	var 年龄 int = 33
+	fmt.Println("年龄 = ", 年龄) // 33
+
+	// 不会报错, 可以正常运行
+	var 结果 int = 计算器(10, 20)
+	fmt.Println("结果 = ", 结果) // 30
+}
+func 计算器(第一个变量, 第二个变量 int)int  {
+	return 第一个变量 + 第二个变量
+}
+```
 ---
 - 和C语言一样,标识符除了有`命名规则`以外,还有标识符`命名规范`
   + 规则必须遵守, 规范不一定要遵守, 但是建议遵守
@@ -963,7 +962,7 @@ func main() {
 
 	var num3  = 30 // 定义的同时赋值, 并省略数据类型
 	fmt.Println("num3 = ", num3)
-    
+
 	num4  := 40 // 定义的同时赋值, 并省略关键字和数据类型
 	/*
 	num4  := 40 等价于
@@ -975,67 +974,67 @@ func main() {
 ```
 - 和C语言一样,除了可以定义单个变量以外,还支持一次性定义多个变量
   + 方式一, 连续定义
-   ```go
-	package main
-	import "fmt"
-	func main() {
-		var num1, num2 int // 先定义
-		num1 = 10	// 后赋值
-		num2 = 20
-		fmt.Println("num1 = ", num1)
-		fmt.Println("num2 = ", num2)
-	
-		var num3, num4 int = 30, 40 // 定义的同时赋值
-		fmt.Println("num3 = ", num3)
-		fmt.Println("num4 = ", num4)
-	
-		var num5, num6 = 50, 60 // 定义的同时赋值, 并省略数据类型
-		fmt.Println("num5 = ", num5)
-		fmt.Println("num6 = ", num6)
-	
-		num7, num8 := 70, 80 // 定义的同时赋值, 并省略关键字和数据类型
-		fmt.Println("num7 = ", num7)
-		fmt.Println("num8 = ", num8)
-	}
-   ```
+```go
+package main
+import "fmt"
+func main() {
+	var num1, num2 int // 先定义
+	num1 = 10	// 后赋值
+	num2 = 20
+	fmt.Println("num1 = ", num1)
+	fmt.Println("num2 = ", num2)
+
+	var num3, num4 int = 30, 40 // 定义的同时赋值
+	fmt.Println("num3 = ", num3)
+	fmt.Println("num4 = ", num4)
+
+	var num5, num6 = 50, 60 // 定义的同时赋值, 并省略数据类型
+	fmt.Println("num5 = ", num5)
+	fmt.Println("num6 = ", num6)
+
+	num7, num8 := 70, 80 // 定义的同时赋值, 并省略关键字和数据类型
+	fmt.Println("num7 = ", num7)
+	fmt.Println("num8 = ", num8)
+}
+```
   + 方式二, 变量组
-  ```go
-	package main
-	import "fmt"
-	func main() {
-		var( // 先定义
-			num1 int
-			num2 float32
-		)
-		num1 = 10 // 后赋值
-		num2 = 3.14
-		fmt.Println("num1 = ", num1)
-		fmt.Println("num2 = ", num2)
-  
-		var( // 定义的同时赋值
-			num3 int = 30
-			num4 float32 = 6.66
-		)
-		fmt.Println("num3 = ", num3)
-		fmt.Println("num4 = ", num4)
-  
-		var( // 定义的同时赋值, 并省略数据类型
-			num5 = 50
-			num6 = 7.77
-		)
-		fmt.Println("num5 = ", num5)
-		fmt.Println("num6 = ", num6)
-  
-		var( // 一行定义多个
-			num7, num8 = 70, 80
-			num9, num10 = 9.99, 100
-		)
-		fmt.Println("num7 = ", num7)
-		fmt.Println("num8 = ", num8)
-		fmt.Println("num9 = ", num9)
-		fmt.Println("num10 = ", num10)
-	}
-  ```
+```go
+package main
+import "fmt"
+func main() {
+	var( // 先定义
+		num1 int
+		num2 float32
+	)
+	num1 = 10 // 后赋值
+	num2 = 3.14
+	fmt.Println("num1 = ", num1)
+	fmt.Println("num2 = ", num2)
+
+	var( // 定义的同时赋值
+		num3 int = 30
+		num4 float32 = 6.66
+	)
+	fmt.Println("num3 = ", num3)
+	fmt.Println("num4 = ", num4)
+
+	var( // 定义的同时赋值, 并省略数据类型
+		num5 = 50
+		num6 = 7.77
+	)
+	fmt.Println("num5 = ", num5)
+	fmt.Println("num6 = ", num6)
+
+	var( // 一行定义多个
+		num7, num8 = 70, 80
+		num9, num10 = 9.99, 100
+	)
+	fmt.Println("num7 = ", num7)
+	fmt.Println("num8 = ", num8)
+	fmt.Println("num9 = ", num9)
+	fmt.Println("num10 = ", num10)
+}
+```
 ---
 ## Go语言变量定义注意点
 - 简短模式的含义是定义的同时初始化
@@ -1156,7 +1155,7 @@ var num3 int
 func main() {
 	//var num2
 	//var num2 // 报错, 重复定义
-	
+
 	var num3 int // 不报错, 因为作用域不同
 	fmt.Println("num3 = ", num3)
 }
@@ -1234,243 +1233,243 @@ int main(){
 - Go语言数值类型之间转换
   + 格式: `数据类型(需要转换的数据)`
   + 注意点: 和C语言一样数据可以从大类型转换为小类型, 也可以从小类型转换为大类型. 但是大类型转换为小类型可能会丢失精度
-  ```go
-	package main
-	import "fmt"
-	func main() {
-		var num0 int = 10
-		var num1 int8 = 20
-		var num2 int16
-		//num2 = num0 // 编译报错, 不同长度的int之间也需要显示转换
-		//num2 = num1 // 编译报错, 不同长度的int之间也需要显示转换
-		num2 = int16(num0)
-		num2 = int16(num1)
-		fmt.Println(num2)
-	
-		var num3 float32 = 3.14
-		var num4 float64
-		//num4 = num3 // 编译报错, 不同长度的float之间也需要显示转换
-		num4 = float64(num3)
-		fmt.Println(num4)
-	
-		var num5 byte = 11
-		var num6 uint8 // 这里不是隐式转换, 不报错的原因是byte的本质就是uint8
-		num6 = num5
-		fmt.Println(num6)
-	
-		var num7 rune = 11
-		var num8 int32
-		num8 = num7 // 这里不是隐式转换, 不报错的原因是byte的本质就是int32
-		fmt.Println(num8)
-	}
-  ```
+```go
+package main
+import "fmt"
+func main() {
+	var num0 int = 10
+	var num1 int8 = 20
+	var num2 int16
+	//num2 = num0 // 编译报错, 不同长度的int之间也需要显示转换
+	//num2 = num1 // 编译报错, 不同长度的int之间也需要显示转换
+	num2 = int16(num0)
+	num2 = int16(num1)
+	fmt.Println(num2)
+
+	var num3 float32 = 3.14
+	var num4 float64
+	//num4 = num3 // 编译报错, 不同长度的float之间也需要显示转换
+	num4 = float64(num3)
+	fmt.Println(num4)
+
+	var num5 byte = 11
+	var num6 uint8 // 这里不是隐式转换, 不报错的原因是byte的本质就是uint8
+	num6 = num5
+	fmt.Println(num6)
+
+	var num7 rune = 11
+	var num8 int32
+	num8 = num7 // 这里不是隐式转换, 不报错的原因是rune的本质就是int32
+	fmt.Println(num8)
+}
+```
 
 ---
 ## 数值类型和字符串类型之间转换
 - Go语言中不能通过 数据类型(变量)的格式将数值类型转换为字符串, 也不能通过 数据类型(变量)的格式将字符串转换为数值类型
 ```go
-	package main
-	import "fmt"
-	func main() {
-		var num1 int32 = 65
-		// 可以将整型强制转换, 但是会按照ASCII码表来转换
-		// 但是不推荐这样使用
-		var str1 string = string(num1)
-		fmt.Println(str1)
+package main
+import "fmt"
+func main() {
+	var num1 int32 = 65
+	// 可以将整型强制转换, 但是会按照ASCII码表来转换
+	// 但是不推荐这样使用
+	var str1 string = string(num1)
+	fmt.Println(str1)
 
-		var num2 float32 = 3.14
-		// 不能将其它基本类型强制转换为字符串类型
-		var str2 string = string(num2)
-		fmt.Println(str2)
+	var num2 float32 = 3.14
+	// 不能将其它基本类型强制转换为字符串类型
+	var str2 string = string(num2)
+	fmt.Println(str2)
 
-		var str3 string = "97"
-		// 不能强制转换, cannot convert str2 (type string) to type int
-		var num3  int = int(str3)
-		fmt.Println(num3)
-	}
+	var str3 string = "97"
+	// 不能强制转换, cannot convert str2 (type string) to type int
+	var num3  int = int(str3)
+	fmt.Println(num3)
+}
 ```
 
   + **数值类型转字符串类型`strconv..FormatXxx()`**
-  ```go
-	package main
-	import "fmt"
-	func main() {
-		var num1 int32 = 10
-		// 第一个参数: 需要被转换的整型,必须是int64类型
-		// 第二个参数: 转换为几进制,  必须在2到36之间
-		// 将32位十进制整型变量10转换为字符串,并继续保留10进制格式
-		str1 := strconv.FormatInt(int64(num1), 10)
-		fmt.Println(str1) // 10
-		// 将32位十进制整型变量10转换为字符串,并转换为2进制格式
-		str2 := strconv.FormatInt(int64(num1), 2)
-		fmt.Println(str2) // 1010
+```go
+package main
+import "fmt"
+func main() {
+	var num1 int32 = 10
+	// 第一个参数: 需要被转换的整型,必须是int64类型
+	// 第二个参数: 转换为几进制,  必须在2到36之间
+	// 将32位十进制整型变量10转换为字符串,并继续保留10进制格式
+	str1 := strconv.FormatInt(int64(num1), 10)
+	fmt.Println(str1) // 10
+	// 将32位十进制整型变量10转换为字符串,并转换为2进制格式
+	str2 := strconv.FormatInt(int64(num1), 2)
+	fmt.Println(str2) // 1010
 
-		var num5 float64 = 3.1234567890123456789
-		// 第一个参数: 需要转换的实型, 必须是float64类型
-		// 第二个参数: 转换为什么格式,f小数格式, e指数格式
-		// 第三个参数: 转换之后保留多少位小数, 传入-1按照指定类型有效位保留
-		// 第四个参数: 被转换数据的实际位数,float32就传32, float64就传64
-		// 将float64位实型,按照小数格式并保留默认有效位转换为字符串
-		str3 := strconv.FormatFloat(num5, 'f', -1, 64)
-		fmt.Println(str3) // 3.1234567
-		str4 := strconv.FormatFloat(num5, 'f', -1, 64)
-		fmt.Println(str4) // 3.1234567890123457
-		// 将float64位实型,按照小数格式并保留2位有效位转换为字符串
-		str5 := strconv.FormatFloat(num5, 'f', 2, 64)
-		fmt.Println(str5) // 3.12
-		// 将float64位实型,按照指数格式并保留2位有效位转换为字符串
-		str6 := strconv.FormatFloat(num5, 'e', 2, 64)
-		fmt.Println(str6) // 3.12
+	var num5 float64 = 3.1234567890123456789
+	// 第一个参数: 需要转换的实型, 必须是float64类型
+	// 第二个参数: 转换为什么格式,f小数格式, e指数格式
+	// 第三个参数: 转换之后保留多少位小数, 传入-1按照指定类型有效位保留
+	// 第四个参数: 被转换数据的实际位数,float32就传32, float64就传64
+	// 将float64位实型,按照小数格式并保留默认有效位转换为字符串
+	str3 := strconv.FormatFloat(num5, 'f', -1, 64)
+	fmt.Println(str3) // 3.1234567
+	str4 := strconv.FormatFloat(num5, 'f', -1, 64)
+	fmt.Println(str4) // 3.1234567890123457
+	// 将float64位实型,按照小数格式并保留2位有效位转换为字符串
+	str5 := strconv.FormatFloat(num5, 'f', 2, 64)
+	fmt.Println(str5) // 3.12
+	// 将float64位实型,按照指数格式并保留2位有效位转换为字符串
+	str6 := strconv.FormatFloat(num5, 'e', 2, 64)
+	fmt.Println(str6) // 3.12
 
-		var num6 bool = true
-		str7 := strconv.FormatBool(num6)
-		fmt.Println(str7) // true
-	}
-  ```
+	var num6 bool = true
+	str7 := strconv.FormatBool(num6)
+	fmt.Println(str7) // true
+}
+```
   + **字符串类型转数值类型`strconv.ParseXxx()`**
-  ```go
-	package main
-	import "fmt"
-	func main() {
-		var str1 string = "125"
-		// 第一个参数: 需要转换的数据
-		// 第二个参数: 转换为几进制
-		// 第三个参数: 转换为多少位整型
-		// 注意点: ParseInt函数会返回两个值, 一个是转换后的结果, 一个是错误
-		// 如果被转换的数据转换之后没有超出指定的范围或者不能被转换时,
-		// 那么错误为nil, 否则错误不为nil
-		// 将字符串"125"转换为10进制的int8
-		num1, err := strconv.ParseInt(str1, 10, 8)
-		if err != nil {
-			fmt.Println(err)
-		}
-		fmt.Println(num1)
-
-		var str2 string = "150"
-		// 将字符串"150"转换为10进制的int8
-		// 由于int8的取值范围是-128~127, 所以转换之后超出了指定的范围, error不为nil
-		num2, err := strconv.ParseInt(str2, 10, 8)
-		if err != nil {
-			fmt.Println(err)
-		}
-		fmt.Println(num2)
-
-		var str3 string = "3.1234567890123456789"
-		// 第一个参数: 需要转换的数据
-		// 第二个参数: 转换为多少位小数, 32 or 64
-		// ParseFloat同样有两个返回值, 如果能够正常转换则错误为nil, 否则不为nil
-		num3, err := strconv.ParseFloat(str3, 32)
-		if err != nil {
-			// 例如: 把字符串"3.14abc"转换为小数就会报错, 因为"3.14abc"不是一个小数
-			fmt.Println(err)
-		}
-		fmt.Println(num3)
-
-		var str4 string = "true"
-		// 第一个参数: 需要转换的数据
-		// ParseBool同样有两个返回值, 如果能够正常转换则错误为nil, 否则不为nil
-		num4, _ := strconv.ParseBool(str4)
-		fmt.Println(num4)
+```go
+package main
+import "fmt"
+func main() {
+	var str1 string = "125"
+	// 第一个参数: 需要转换的数据
+	// 第二个参数: 转换为几进制
+	// 第三个参数: 转换为多少位整型
+	// 注意点: ParseInt函数会返回两个值, 一个是转换后的结果, 一个是错误
+	// 如果被转换的数据转换之后没有超出指定的范围或者不能被转换时,
+	// 那么错误为nil, 否则错误不为nil
+	// 将字符串"125"转换为10进制的int8
+	num1, err := strconv.ParseInt(str1, 10, 8)
+	if err != nil {
+		fmt.Println(err)
 	}
-  ```
+	fmt.Println(num1)
+
+	var str2 string = "150"
+	// 将字符串"150"转换为10进制的int8
+	// 由于int8的取值范围是-128~127, 所以转换之后超出了指定的范围, error不为nil
+	num2, err := strconv.ParseInt(str2, 10, 8)
+	if err != nil {
+		fmt.Println(err)
+	}
+	fmt.Println(num2)
+
+	var str3 string = "3.1234567890123456789"
+	// 第一个参数: 需要转换的数据
+	// 第二个参数: 转换为多少位小数, 32 or 64
+	// ParseFloat同样有两个返回值, 如果能够正常转换则错误为nil, 否则不为nil
+	num3, err := strconv.ParseFloat(str3, 32)
+	if err != nil {
+		// 例如: 把字符串"3.14abc"转换为小数就会报错, 因为"3.14abc"不是一个小数
+		fmt.Println(err)
+	}
+	fmt.Println(num3)
+
+	var str4 string = "true"
+	// 第一个参数: 需要转换的数据
+	// ParseBool同样有两个返回值, 如果能够正常转换则错误为nil, 否则不为nil
+	num4, _ := strconv.ParseBool(str4)
+	fmt.Println(num4)
+}
+```
 - 字符串类型转换为数值类型时,如果不能转换除了返回error以外,还会返回对应类型的默认值
 ```go
-	package main
-	import "fmt"
-	func main() {
-		var str1 string = "abc"
-		num1, _ := strconv.ParseInt(str1, 10, 32)
-		fmt.Println(num1) // 0
+package main
+import "fmt"
+func main() {
+	var str1 string = "abc"
+	num1, _ := strconv.ParseInt(str1, 10, 32)
+	fmt.Println(num1) // 0
 
-		num2, _ := strconv.ParseFloat(str1, 32)
-		fmt.Println(num2) // 0
+	num2, _ := strconv.ParseFloat(str1, 32)
+	fmt.Println(num2) // 0
 
-		num3, _ := strconv.ParseBool(str1)
-		fmt.Println(num3) // false
-	}
+	num3, _ := strconv.ParseBool(str1)
+	fmt.Println(num3) // false
+}
 ```
 - 看完上面的代码有没有种想打人的感觉? 如果有那么请继续往下看
 - 字符串类型和整型快速转换
- ```go
-	package main
-	import "fmt"
-	func main() {
-		var num1 int32 = 110
-		// 快速将整型转换为字符串类型
-		// 注意:Itoa方法只能接受int类型
-		var str1 string = strconv.Itoa(int(num1))
-		fmt.Println(str1)
+```go
+package main
+import "fmt"
+func main() {
+	var num1 int32 = 110
+	// 快速将整型转换为字符串类型
+	// 注意:Itoa方法只能接受int类型
+	var str1 string = strconv.Itoa(int(num1))
+	fmt.Println(str1)
 
-		var str2 string = "666"
-		// 快速将字符串类型转换为整型
-		// 注意: Atoi方法返回两个值, 一个值是int,一个值是error
-		// 如果字符串能被转换为int,那么error为nil, 否则不为nil
-		num2, err := strconv.Atoi(str2)
-		if err != nil{
-			fmt.Println(err)
-		}
-		fmt.Println(num2)
+	var str2 string = "666"
+	// 快速将字符串类型转换为整型
+	// 注意: Atoi方法返回两个值, 一个值是int,一个值是error
+	// 如果字符串能被转换为int,那么error为nil, 否则不为nil
+	num2, err := strconv.Atoi(str2)
+	if err != nil{
+		fmt.Println(err)
 	}
- ```
--  **数值类型转字符串类型其它方式**
-  ```go
-	package main
-	import "fmt"
-	func main() {
-		var num1 int32 = 110
-		// Sprintf函数和Printf函数很像, 只不过不是输出而将格式化的字符串返回给我们
-		var str1 string = fmt.Sprintf("%d", num1)
-		fmt.Println(str1)
-  
-		var num2 float32 = 3.14
-		var str2 string = fmt.Sprintf("%f", num2)
-		fmt.Println(str2)
-  
-		var num3 bool = true
-		var str3 string = fmt.Sprintf("%t", num3)
-		fmt.Println(str3)
-	}
-  ```
+	fmt.Println(num2)
+}
+```
+- **数值类型转字符串类型其它方式**
+```go
+package main
+import "fmt"
+func main() {
+	var num1 int32 = 110
+	// Sprintf函数和Printf函数很像, 只不过不是输出而将格式化的字符串返回给我们
+	var str1 string = fmt.Sprintf("%d", num1)
+	fmt.Println(str1)
+
+	var num2 float32 = 3.14
+	var str2 string = fmt.Sprintf("%f", num2)
+	fmt.Println(str2)
+
+	var num3 bool = true
+	var str3 string = fmt.Sprintf("%t", num3)
+	fmt.Println(str3)
+}
+```
 ---
 ## Go语言常量
 - 和C语言一样Go语言中的常量也分为`整型常量`、`实型常量`、`字符常量`、`字符串常量`、`自定义常量`
 
 - 自定义常量
   + C语言自定义常量: ```const 数据类型 常量名称 = 值;```
-  ```go
-    #include <stdio.h>
-    int main(int argc, const char * argv[])
-    {
-        const float PI = 998;
-        PI = 110; // 报错
-        printf("PI = %d\n", PI );
-        return 0;
-    }
-  ```
+```c
+#include <stdio.h>
+int main(int argc, const char * argv[])
+{
+	const float PI = 998;
+	PI = 110; // 报错
+	printf("PI = %d\n", PI );
+	return 0;
+}
+```
   + Go语言自定义常量: ```const 常量名称 数据类型 = 值```or  ```const 常量名称  = 值```
-  ```go
-  package main
-  import "fmt"
-  func main() {
+```go
+package main
+import "fmt"
+func main() {
 	//const PI float32 = 3.14
 	//PI = 110 // 报错
 	//fmt.Println("PI = ", PI )
-  
+
 	const PI = 3.14
 	PI = 110 // 报错
 	fmt.Println("PI = ", PI )
-  }
-  ```
+}
+```
   + 除此之外Go语言还支持`一次性定义多个常量`
-  ```go
-  package main
-  import "fmt"
-  func main() {
+```go
+package main
+import "fmt"
+func main() {
 	// 多重赋值方式
 	const num1, num2 int  = 100, 200
 	fmt.Println("num1 = ", num1)
 	fmt.Println("num2 = ", num2)
-  
+
 	// 常量组方式
 	const (
 		num3 = 100
@@ -1478,7 +1477,7 @@ int main(){
 	)
 	fmt.Println("num3 = ", num3)
 	fmt.Println("num4 = ", num4)
-  
+
 	// 常量组+多重赋值
 	const (
 		num5, num6 = 100, 200
@@ -1487,25 +1486,25 @@ int main(){
 	fmt.Println("num5 = ", num5)
 	fmt.Println("num6 = ", num6)
 	fmt.Println("num7 = ", num7)
-  }
-  ```
+}
+```
 ---
 - Go语言自定义常量注意点
   + 定义的局部变量或者导入的包没有被使用, 那么编译器会报错,无法编译运行
   + 但是定义的常量没有被使用,编译器不会报错, 可以编译运行
-  ```go
-  package main
-  import "fmt"
-  func main() {
+```go
+package main
+import "fmt"
+func main() {
 	// 可以编译运行
 	const PI float32 = 3.14
-  }
-  ```
+}
+```
   + 在常量组中, 如果上一行常量有初始值,但是下一行没有初始值, 那么下一行的值就是上一行的值
-  ```go
-  package main
-  import "fmt"
-  func main() {
+```go
+package main
+import "fmt"
+func main() {
 	const (
 		num1 = 998
 		num2 // 和上一行的值一样
@@ -1518,7 +1517,7 @@ int main(){
 	fmt.Println("num3 = ", num3) // 666
 	fmt.Println("num4 = ", num4) // 666
 	fmt.Println("num5 = ", num5) // 666
-  
+
 	const (
 		num1, num2 = 100, 200
 		num3, num4  // 和上一行的值一样, 注意变量个数必须也和上一行一样
@@ -1527,11 +1526,11 @@ int main(){
 	fmt.Println("num2 = ", num2)
 	fmt.Println("num3 = ", num3)
 	fmt.Println("num4 = ", num4)
-  }
-  ```
+}
+```
 ---
 - 枚举常量
-  + C语言中枚举类型的本质就是整型常量  
+  + C语言中枚举类型的本质就是整型常量
   + Go语言中没有C语言中明确意义上的enum定义, 但是可以借助iota标识符来实现枚举类型
 - C语言枚举格式:
 ```go
@@ -1541,44 +1540,44 @@ int main(){
     … …
  };
 ```
--  C语言枚举中,如果没有指定初始值,那么从0开始递增
-  ```c
-  #include <stdio.h>
-  int main(int argc, const char * argv[])
-  {
-      enum Gender{
-          male,
-          female,
-          yao,
-      };
-  //    enum Gender g = male;
-  //    printf("%d\n", g); // 0
-  //    enum Gender g = female;
-  //    printf("%d\n", g); // 1
-      enum Gender g = yao;
-      printf("%d\n", g); // 2
-      return 0;
-  }
-  ```
+- C语言枚举中,如果没有指定初始值,那么从0开始递增
+```c
+#include <stdio.h>
+int main(int argc, const char * argv[])
+{
+	enum Gender{
+		male,
+		female,
+		yao,
+	};
+	//    enum Gender g = male;
+	//    printf("%d\n", g); // 0
+	//    enum Gender g = female;
+	//    printf("%d\n", g); // 1
+	enum Gender g = yao;
+	printf("%d\n", g); // 2
+	return 0;
+}
+```
   + C语言枚举中, 如果指定了初始值,那么从指定的数开始递增
-  ```c
-  #include <stdio.h>
-  int main(int argc, const char * argv[])
-  {
-      enum Gender{
-          male = 5,
-          female,
-          yao,
-      };
-  //    enum Gender g = male;
-  //    printf("%d\n", g); // 5
-  //    enum Gender g = female;
-  //    printf("%d\n", g); // 6
-      enum Gender g = yao;
-      printf("%d\n", g); // 7
-      return 0;
-  }
-  ```
+```c
+#include <stdio.h>
+int main(int argc, const char * argv[])
+{
+	enum Gender{
+		male = 5,
+		female,
+		yao,
+	};
+	//    enum Gender g = male;
+	//    printf("%d\n", g); // 5
+	//    enum Gender g = female;
+	//    printf("%d\n", g); // 6
+	enum Gender g = yao;
+	printf("%d\n", g); // 7
+	return 0;
+}
+```
 ---
 - Go语言实现枚举格式
 ```go
@@ -1588,28 +1587,28 @@ const(
   ... ...
 )
 ```
--  利用iota标识符标识符实现从0开始递增的枚举
-    ```go
-    package main
-    import "fmt"
-    func main() {
-		const (
-			male = iota
-			female = iota
-			yao = iota
-		)
-		fmt.Println("male = ", male) // 0
-		fmt.Println("male = ", female) // 1
-		fmt.Println("male = ", yao) // 2
-    }
-    ```
--  iota注意点:
-     + 在同一个常量组中,iota从0开始递增, `每一行递增1`
-     + 在同一个常量组中,只要上一行出现了iota,那么后续行就会自动递增
-      ```go
-      package main
-      import "fmt"
-      func main() {
+- 利用iota标识符标识符实现从0开始递增的枚举
+```go
+package main
+import "fmt"
+func main() {
+	const (
+		male = iota
+		female = iota
+		yao = iota
+	)
+	fmt.Println("male = ", male) // 0
+	fmt.Println("male = ", female) // 1
+	fmt.Println("male = ", yao) // 2
+}
+```
+- iota注意点:
+  + 在同一个常量组中,iota从0开始递增, `每一行递增1`
+  + 在同一个常量组中,只要上一行出现了iota,那么后续行就会自动递增
+	```go
+	package main
+	import "fmt"
+	func main() {
 		const (
 			male = iota // 这里出现了iota
 			female // 这里会自动递增
@@ -1618,99 +1617,99 @@ const(
 		fmt.Println("male = ", male) // 0
 		fmt.Println("male = ", female) // 1
 		fmt.Println("male = ", yao) // 2
-      }
-      ```
-      + 在同一个常量组中,如果iota被中断, 那么必须显示恢复
-      ```go
-    package main
-    import "fmt"
-    func main() {
+	}
+	```
+  + 在同一个常量组中,如果iota被中断, 那么必须显示恢复
+	```go
+	package main
+	import "fmt"
+	func main() {
 		const (
-			male = iota 
+			male = iota
 			female = 666 // 这里被中断, 如果没有显示恢复, 那么下面没有赋值的常量都和上一行一样
 			yao
 		)
 		fmt.Println("male = ", male) // 0
 		fmt.Println("male = ", female) // 666
 		fmt.Println("male = ", yao) // 666
-    }
-     ```
-      ```go
-    package main
-    import "fmt"
-    func main() {
+	}
+	```
+	```go
+	package main
+	import "fmt"
+	func main() {
 		const (
-			male = iota 
+			male = iota
 			female = 666 // 这里被中断
 			yao = iota // 这里显示恢复, 会从当前常量组第一次出现iota的地方开始,每一行递增1, 当前是第3行,所以值就是2
 		)
 		fmt.Println("male = ", male) // 0
 		fmt.Println("male = ", female) // 666
 		fmt.Println("male = ", yao) // 2
-    }
-      ```
-      + iota也支持常量组+多重赋值, 在同一行的iota值相同
-      ```go
-      package main
-      import "fmt"
-      func main() {
-	    const (
-		  a, b = iota, iota
-		  c, d = iota, iota
-	    )
-	    fmt.Println("a = ", a) // 0
-	    fmt.Println("b = ", b) // 0
-	    fmt.Println("c = ", c) // 1
-	    fmt.Println("d = ", d) // 1
-      }
-      ```
-      + iota自增默认数据类型为int类型, 也可以显示指定类型
-      ```go
-      package main
-      import "fmt"
-      func main() {
-	  const (
-		  male float32 = iota // 显示指定类型,后续自增都会按照指定类型自增
-		  female
-		  yao
-	  )
-	fmt.Printf("%f\n", male) // 0.0
-	fmt.Printf("%f\n", female) // 1.0
-	fmt.Printf("%f\n", yao) // 2.0
-	  fmt.Println("male = ", reflect.TypeOf(female)) // float32
-      }
-      ```
+	}
+	```
+  + iota也支持常量组+多重赋值, 在同一行的iota值相同
+	```go
+	package main
+	import "fmt"
+	func main() {
+		const (
+			a, b = iota, iota
+			c, d = iota, iota
+		)
+		fmt.Println("a = ", a) // 0
+		fmt.Println("b = ", b) // 0
+		fmt.Println("c = ", c) // 1
+		fmt.Println("d = ", d) // 1
+	}
+	```
+  + iota自增默认数据类型为int类型, 也可以显示指定类型
+	```go
+	package main
+	import "fmt"
+	func main() {
+		const (
+			male float32 = iota // 显示指定类型,后续自增都会按照指定类型自增
+			female
+			yao
+		)
+		fmt.Printf("%f\n", male) // 0.0
+		fmt.Printf("%f\n", female) // 1.0
+		fmt.Printf("%f\n", yao) // 2.0
+		fmt.Println("male = ", reflect.TypeOf(female)) // float32
+	}
+	```
 - Go语言fmt包实现了类似C语言printf和scanf的格式化I/O, 格式化动作源自C语言但更简单
 ##输出函数
 - func Printf(format string, a ...interface{}) (n int, err error)
   + 和C语言用法几乎一模一样, 只不过新增了一些格式化符号
-  ```go
-  package main
-  import "fmt"
-  func main() {
-	  name := "微信搜索：代码情缘"
-	  age := 33
-	  fmt.Printf("name = %s, age = %d\n", name, age) // name = lnj, age = 33
-  }
-  ```
+```go
+package main
+import "fmt"
+func main() {
+	name := "微信搜索：代码情缘"
+	age := 33
+	fmt.Printf("name = %s, age = %d\n", name, age) // name = lnj, age = 33
+}
+```
   + 值得注意的是,输出十进制只能通过%d,不能像C语言一样通过%i
   + 除了和C语言一样,可以通过%o、%x输出八进制和十六进制外,`还可以`直接通过%b输出二进制
-  ```go
-  package main
-  import "fmt"
-  func main() {
-	  num := 15
-	  fmt.Printf("十进制 = %d\n", num)
-	  fmt.Printf("八进制 = %o\n", num)
-	  fmt.Printf("十六进制 = %x\n", num)
-	  fmt.Printf("二进制 = %b\n", num)
-  }
+```go
+package main
+import "fmt"
+func main() {
+	num := 15
+	fmt.Printf("十进制 = %d\n", num)
+	fmt.Printf("八进制 = %o\n", num)
+	fmt.Printf("十六进制 = %x\n", num)
+	fmt.Printf("二进制 = %b\n", num)
+}
   ```
   + 除此之外,Go语言还增加了%T控制符, 用于输出值的类型
-  ```go
-  package main
-  import "fmt"
-  func main() {
+```go
+package main
+import "fmt"
+func main() {
 	type Person struct {
 		name string
 		age int
@@ -1721,15 +1720,15 @@ const(
 	fmt.Printf("num1 = %T\n", num1) // int
 	fmt.Printf("num2 = %T\n", num2) // float64
 	fmt.Printf("per = %T\n", per) // main.Person
-  }
-  ```
+}
+```
   + 除此之外,Go语言还增加了%v控制符,用于打印所有类型数据
     + Go语言中输出某一个值,很少使用%d%f等, 一般都使用%v即可
     + 输出复合类型时会自动生成对应格式后再输出
-  ```go
-  package main
-  import "fmt"
-  func main() {
+```go
+package main
+import "fmt"
+func main() {
 	type Person struct {
 		name string
 		age int
@@ -1741,55 +1740,55 @@ const(
 	fmt.Printf("num1 = %v\n", num1) // 10
 	// 此时相当于把%v当做%f
 	fmt.Printf("num2 = %v\n", num2) // 3.14
-  }
-  ```
+}
+```
   + Go语言Printf函数其它特性,如宽度、标志、精度、长度、转移符号等,和C语言一样.
 ---
 - func Println(a ...interface{}) (n int, err error)
-  + 采用默认格式将其参数格式化并写入标准输出, 
+  + 采用默认格式将其参数格式化并写入标准输出,
     + 输出之后`会`在结尾处添加换行
     + 传入多个参数时, 会自动在相邻参数之间添加空格
     + 传入符合类型数据时, 会自动生成对应格式后再输出
-  ```go
-  package main
-  import "fmt"
-  func main() {
+```go
+package main
+import "fmt"
+func main() {
 	num1 := 10
 	num2 := 3.14
 	fmt.Println(num1, num2) // 10 3.14
 	fmt.Println("num1 =", num1, "num2 =", num2) // num1 = 10 num2 = 3.14
-  
+
 	type Person struct {
 		name string
 		age int
 	}
 	per := Person{"lnj", 33}
 	fmt.Println(per) // {lnj 33}
-  }
-  ```
+}
+```
 ---
 - func Print(a ...interface{}) (n int, err error)
   + 和Println几乎一样
     + 输出之后`不会`在结尾处添加换行
     + 传入多个参数时, 只有两个相邻的参数`都不是`字符串,才会在相邻参数之间添加空格
     + 传入符合类型数据时, 会自动生成对应格式后再输出
-  ```gi
-  package main
-  import "fmt"
-  func main() {
+```go
+package main
+import "fmt"
+func main() {
 	num1 := 10
 	num2 := 3.14
 	fmt.Print(num1, num2) // 10 3.14
 	fmt.Print("num1 =", num1, "num2 =", num2) // num1 =10 num2 =3.14
-  
+
 	type Person struct {
 		name string
 		age int
 	}
 	per := Person{"lnj", 33}
 	fmt.Print(per) // {lnj 33}
-  }
-  ```
+}
+```
 ---
 - 以下三个函数和Printf/Println/Print函数一样, 只不过上面三个函数是输出到标准输出, 而下面三个函数可以通过w指定输出到什么地方
 - func Fprintf(w io.Writer, format string, a ...interface{}) (n int, err error)
@@ -1819,7 +1818,7 @@ func main() {
 }
 ```
 ---
-- 以下三个函数和Printf/Println/Print函数一样, 只不过上面三个函数是输出到标准输出, 
+- 以下三个函数和Printf/Println/Print函数一样, 只不过上面三个函数是输出到标准输出,
 而下面三个函数不会输出,而是将字符串返回给我们
 - func Sprintf(format string, a ...interface{}) string
 - func Sprint(a ...interface{}) string
@@ -1844,80 +1843,80 @@ func main() {
 ## 输入函数
 - func Scanf(format string, a ...interface{}) (n int, err error)
   + 和C语言用法几乎一模一样, 但是只能输入一行数据
-  ```go
-  package main
-  import "fmt"
-  func main() {
-	  var num1 int
-	  var num2 int
-	  fmt.Scanf("%d%d", &num1, &num2)
-	  fmt.Println(num1, num2)
-  }
-  ```
+```go
+package main
+import "fmt"
+func main() {
+	var num1 int
+	var num2 int
+	fmt.Scanf("%d%d", &num1, &num2)
+	fmt.Println(num1, num2)
+}
+```
 - func Scan(a ...interface{}) (n int, err error)
   + 和C语言scanf函数几乎一样, 只不过不用指定格式化字符串
-  ```go
-  package main
-  import "fmt"
-  func main() {
+```go
+package main
+import "fmt"
+func main() {
 	var num1 int
 	var num2 int
 	fmt.Scan(&num1, &num2)
 	fmt.Println(num1, num2)
-  
+
 	var num3 float32
 	var num4 float32
 	fmt.Scan(&num3, &num4)
 	fmt.Println(num3, num4)
-  }
-  ```
+}
+```
 - func Scanln(a ...interface{}) (n int, err error)
   + 和C语言用法几乎一模一样, 只不过不用指定格式化字符串, 并且只能输入一行数据
-  ```go
-  package main
-  import "fmt"
-  func main() {
-	  var num1 int
-	  var num2 int
-	  fmt.Scanln(&num1, &num2)
-	  fmt.Println(num1, num2)
-  }
-  ```
+```go
+package main
+import "fmt"
+func main() {
+	var num1 int
+	var num2 int
+	fmt.Scanln(&num1, &num2)
+	fmt.Println(num1, num2)
+}
+```
 ---
 - 以下三个函数和Scan/Scanln/Scanf函数一样, 只不过上面三个函数是从标准输入读取数据, 而下面三个函数可以通过r指定从哪读取数据
 - func Fscanf(r io.Reader, format string, a ...interface{}) (n int, err error)
 - func Fscanln(r io.Reader, a ...interface{}) (n int, err error)
 - func Fscan(r io.Reader, a ...interface{}) (n int, err error)
 ```go
-  package main
-  import "fmt"
-  func main() {
-	  var num1 int
-	  var num2 int
-	  // 第一个参数: 指定从哪读取数据
-	  // 第二个参数: 指定格式控制字符串
-	  // 第三个参数: 指定要输出的数据
-	  fmt.Fscanf(os.Stdin, "%d%d", &num1, &num2)
-	  fmt.Println(num1, num2)
+package main
+import "fmt"
+func main() {
+	var num1 int
+	var num2 int
+	// 第一个参数: 指定从哪读取数据
+	// 第二个参数: 指定格式控制字符串
+	// 第三个参数: 指定要输出的数据
+	fmt.Fscanf(os.Stdin, "%d%d", &num1, &num2)
+	fmt.Println(num1, num2)
 
 
-	  s := strings.NewReader("lnj 33")
-	  var name string
-	  var age int
-	  // 从指定字符串中扫描出想要的数据
-	  // 注意:
-	  fmt.Fscanf(s, "%s%d", &name, &age)
-	  fmt.Println("name =",name, "age =",age)
-  }
+	s := strings.NewReader("lnj 33")
+	var name string
+	var age int
+	// 从指定字符串中扫描出想要的数据
+	// 注意:
+	fmt.Fscanf(s, "%s%d", &name, &age)
+	fmt.Println("name =",name, "age =",age)
+}
 ```
 - 以下三个函数和Scan/Scanln/Scanf函数一样, 只不过上面三个函数是从标准输入读取数据, 而下面三个函数是从字符串中读取数据
 - func Sscan(str string, a ...interface{}) (n int, err error)
 - func Sscanf(str string, format string, a ...interface{}) (n int, err error)
 - func Sscanln(str string, a ...interface{}) (n int, err error)
 ```go
-  package main
-  import "fmt"
-  func main() {
+package main
+import "fmt"
+func main() {
 	str := "lnj 33"
 	var name string
 	var age int
@@ -1925,7 +1924,7 @@ func main() {
 	//fmt.Sscanln(str,&name, &age)
 	fmt.Sscan(str,&name, &age)
 	fmt.Println("name =",name, "age =",age)
-  }
+}
 ```
 ## go命令行操作指令
 - 标准go语言项目文件目录格式
@@ -1955,7 +1954,7 @@ func main() {
   + 对于非命令文件只会执行编译检查, 不会产生任何文件
   + 对于命令文件除了编译检查外,还会在当前目录下生成一个可执行文件
   + 对应只想编译某个文件, 可以在命令后面指定文件名称`go build 文件名称 `
-- `go install` 安装程序  
+- `go install` 安装程序
   + 对于非命令文件会执行编译检查, 并生成.a结尾的包, 放到 $GOPATH/pkg目录中
   + 对于命令文件会执行编译检查, 并生成可执行程序, 放到$GOPATH/bin目录中
 
@@ -2181,7 +2180,7 @@ func main() {
 |<=	|检查左边值是否小于等于右边值，如果是返回 True 否则返回 False。	|A <= B |
 
 - 注意点:
-  + 和C语言不通的是, Go语言中关系运算符只能返回true和false
+  + 和C语言不同的是, Go语言中关系运算符只能返回true和false
 ---
 ## 逻辑运算符
 - 逻辑运算符和C语言一样
@@ -2193,7 +2192,7 @@ func main() {
 |  ! |如果条件为 True，则逻辑 NOT 条件 False，否则为 True。	|!A |
 
 - 注意点:
-  + 和C语言不通的是, Go语言中关系运算符只能返回true和false
+  + 和C语言不同的是, Go语言中关系运算符只能返回true和false
   + 逻辑非只能用于true和false
 ---
 ## 位运算符
@@ -2772,7 +2771,7 @@ func sum(a int, b int) int {
 ```c
 // 给返回值指定了一个名称叫做res, return时会自动将函数体内部res作为返回值
 // 其实本质就是提前定义了一个局部变量res, 在函数体中使用的res就是这个局部变量,返回的也是这个局部变量
-func sum() (res int) { 
+func sum() (res int) {
 	res = 1 + 1
 	return
 }
@@ -2897,24 +2896,24 @@ func change(mp map[string]string)  {
   + 普通函数的函数名称是固定的, 匿名函数的函数名称是系统随机的
 - 匿名函数可以定义在函数外(全局匿名函数),也可以定义在函数内(局部匿名函数), Go语言中的普通函数不能嵌套定义, 但是可以通过匿名函数来实现函数的嵌套定义
   + 全局匿名函数
-  ```go
-  package main
-  import "fmt"
-  // 方式一
-  var a = func()  {
-  	fmt.Println("hello world1")
-  }
-  // 方式二
-  var (
-  	  b  = func()  {
-  	    fmt.Println("hello world2")
-  	  }
-  )
-  func main() {
-  	  a()
-	  b()
-  }
-  ```
+```go
+package main
+import "fmt"
+// 方式一
+var a = func()  {
+fmt.Println("hello world1")
+}
+// 方式二
+var (
+	b  = func()  {
+	fmt.Println("hello world2")
+	}
+)
+func main() {
+	a()
+	b()
+}
+```
 - 一般情况下我们很少使用全局匿名函数, 大多数情况都是使用局部匿名函数, 匿名函数可以直接调用、保存到变量、作为参数或者返回值
 - 直接调用
 ```go
@@ -3060,7 +3059,7 @@ func work(custom func())  {
 		fmt.Println("吃饭")
 		fmt.Println("睡觉")
 	}
-	
+
 	// 上班前
 	pre()
 	// 上班中
@@ -3073,70 +3072,70 @@ func work(custom func())  {
 ## 闭包
 - 闭包是一个特殊的匿名函数, 它是匿名函数和相关引用环境组成的一个整体
   + 也就是说只要匿名函数中用到了外界的变量, 那么这个匿名函数就是一个闭包
-  ```go
-  package main
-  import "fmt"
-  func main() {
-	  num := 10
-	  a := func() {
-		  num++ // 在闭包中用到了main函数中的num, 所以这个匿名函数就是一个闭包
-		  fmt.Println(num) // 11
-	  }
-	  a()
-  }
-  ```
+```go
+package main
+import "fmt"
+func main() {
+	num := 10
+	a := func() {
+		num++ // 在闭包中用到了main函数中的num, 所以这个匿名函数就是一个闭包
+		fmt.Println(num) // 11
+	}
+	a()
+}
+```
   + 闭包中使用的变量和外界的变量是同一个变量, 所以可以闭包中可以修改外界变量
-  ```go
-  package main
-  import "fmt"
-  func main() {
-	  num := 10
-	  a := func() {
-		  num = 6 // 在闭包中用到了main函数中的num, 所以这个匿名函数就是一个闭包
-		  fmt.Println(num) // 6
-	  }
-	  fmt.Println("执行闭包前", num) // 10
-	  a()
-	  fmt.Println("执行闭包后", num) // 6
-  }
-  ```
+```go
+package main
+import "fmt"
+func main() {
+	num := 10
+	a := func() {
+		num = 6 // 在闭包中用到了main函数中的num, 所以这个匿名函数就是一个闭包
+		fmt.Println(num) // 6
+	}
+	fmt.Println("执行闭包前", num) // 10
+	a()
+	fmt.Println("执行闭包后", num) // 6
+}
+```
   + 只要闭包还在使用外界的变量, 那么外界的变量就会一直存在
-  ```go
-  package main
-  import "fmt"
-  func main() {
+```go
+package main
+import "fmt"
+func main() {
 	res := addUpper() // 执行addUpper函数,得到一个闭包
-	fmt.Println(res()) // 2 
+	fmt.Println(res()) // 2
 	fmt.Println(res()) // 3
 	fmt.Println(res()) // 4
 	fmt.Println(res()) // 5
-  }
-  func addUpper() func() int {
-	  x := 1
-	  return func() int {
-		  x++ // 匿名函数中用到了addUpper中的x,所以这是一个闭包
-		  return x
-	  }
-  }
-  ```
+}
+func addUpper() func() int {
+	x := 1
+	return func() int {
+		x++ // 匿名函数中用到了addUpper中的x,所以这是一个闭包
+		return x
+	}
+}
+```
 ---
 ## 延迟调用
 - Go语言中没有提供其它面向对象语言的析构函数, 但是Go语言提供了defer语句用于实现其它面向对象语言析构函数的功能
 - defer语句常用于`释放资源`、`解除锁定`以及`错误处理`等
-  + 例如C语言中我们申请了一块内存空间,那么不使用时我们就必须释放这块存储空间  
+  + 例如C语言中我们申请了一块内存空间,那么不使用时我们就必须释放这块存储空间
   + 例如C语言中我们打开了一个文件,那么我们不使用时就要关闭这个文件
   + 例如C语言中我们打开了一个数据库, 那么我们不使用时就要关闭这个数据库
   + 这一类的操作在Go语言中都可以通过defer语句来完成
 - 无论你在什么地方注册defer语句,它都会在所属函数执行完毕之后才会执行, 并且如果注册了多个defer语句,那么它们会按照`后进先出`的原则执行
   + 正是因为defer语句的这种特性, 所以在Go语言中关闭资源不用像C语言那样用完了再关闭, 我们完全可以打开的同时就关闭, 因为无论如何defer语句都会在所属函数执行完毕之后才会执行
 ```go
-  package main
-  import "fmt"
-  func main() {
+package main
+import "fmt"
+func main() {
 	defer fmt.Println("我是第一个被注册的") // 3
 	fmt.Println("main函数中调用的Println") // 1
 	defer fmt.Println("我是第二个被注册的") // 2
-  }
+}
 ```
 ---
 ## init函数
@@ -3179,79 +3178,79 @@ func abc() int {
 - 格式:`var arr [元素个数]数据类型`
   + 和C语言中数组不同, Go语言中数组定义之后就`有默认的初始值`
   + 默认初始值就是保存数据类型的默认值(零值)
-  ```go
-  package main
-  import "fmt"
-  func main() {
-	  // 1.定义一个数组
-	  var arr [3]int
-	  // 2.打印数组
-	  fmt.Println(arr) //[0 0 0]
-  
-	  // 1.定义一个数组
-	  var arr [3]bool
-	  // 2.打印数组
-	  fmt.Println(arr) //[false false  false]
-  }
-  ```
+```go
+package main
+import "fmt"
+func main() {
+	// 1.定义一个数组
+	var arr [3]int
+	// 2.打印数组
+	fmt.Println(arr) //[0 0 0]
+
+	// 1.定义一个数组
+	var arr [3]bool
+	// 2.打印数组
+	fmt.Println(arr) //[false false  false]
+}
+```
   + 和C语言一样,Go语言中的数组也提供了好几种初始化方式
-  ```go
-  package main
-  import "fmt"
-  func main() {
-		// 1.定义的同时完全初始化
-		var arr1 [3]int = [3]int{1, 3, 5}
-		// 2.打印数组
-		fmt.Println(arr1) // [1 3 5]
-  
-		// 1.定义的同时部分初始化
-		var arr4 [3]int = [3]int{8, 9}
-		// 2.打印数组
-		fmt.Println(arr4) // [8 9 0]
-  
-		// 1.定义的同时指定元素初始化
-		var arr5 [3]int = [3]int{0:8, 2:9}
-		// 2.打印数组
-		fmt.Println(arr5) // [8 0 9]
-  
-		// 1.先定义再逐个初始化
-		var arr3 [3]int
-		arr3[0] = 1
-		arr3[1] = 2
-		arr3[2] = 3
-		// 2.打印数组
-		fmt.Println(arr3) // [1 2 3]
-  }
-  ```
+```go
+package main
+import "fmt"
+func main() {
+	// 1.定义的同时完全初始化
+	var arr1 [3]int = [3]int{1, 3, 5}
+	// 2.打印数组
+	fmt.Println(arr1) // [1 3 5]
+
+	// 1.定义的同时部分初始化
+	var arr4 [3]int = [3]int{8, 9}
+	// 2.打印数组
+	fmt.Println(arr4) // [8 9 0]
+
+	// 1.定义的同时指定元素初始化
+	var arr5 [3]int = [3]int{0:8, 2:9}
+	// 2.打印数组
+	fmt.Println(arr5) // [8 0 9]
+
+	// 1.先定义再逐个初始化
+	var arr3 [3]int
+	arr3[0] = 1
+	arr3[1] = 2
+	arr3[2] = 3
+	// 2.打印数组
+	fmt.Println(arr3) // [1 2 3]
+}
+```
   + 和C语言中的数组不同,Go语言中数组除了可以定义的同时初始化以外,还`可以先定义再一次性初始化`
-  ```go
-  package main
-  import "fmt"
-  func main() {
-		// 1.先定义再一次性初始化
-		var arr2 [3]int
-		arr2 = [3]int{2, 4, 6}
-		// 2.打印数组
-		fmt.Println(arr2) // [2 4 6]
-  }
-  ```
+```go
+package main
+import "fmt"
+func main() {
+	// 1.先定义再一次性初始化
+	var arr2 [3]int
+	arr2 = [3]int{2, 4, 6}
+	// 2.打印数组
+	fmt.Println(arr2) // [2 4 6]
+}
+```
   + 和C语言一样,Go语言中如果定义数组的同时初始化,那么元素个数可以省略,但是必须使用`...`来替代
     + ...会根据初始化元素个数自动确定数组长度
-  ```go
-  package main
-  import "fmt"
-  func main() {
+```go
+package main
+import "fmt"
+func main() {
 	// 1.定义的同时完全初始化
 	var arr1  = [...]int{1, 3, 5}
 	// 2.打印数组
 	fmt.Println(arr1) // [1 3 5]
-  
+
 	// 1.定义的同时指定元素初始化
 	var arr2  = [...]int{6:5}
 	// 2.打印数组
 	fmt.Println(arr2) // [0 0 0 0 0 0 5]
-  }
-  ```
+}
+```
 - Go语言中数组的访问和使用方式和C语言一样都是通过`数组名称[索引]`的方式
 ```go
 package main
@@ -3285,111 +3284,111 @@ func main() {
 ```
 - 数组注意点
   + Go语言中`数组长度`也是`数据类型的一部分`
-  ```go
-  package main
-  import "fmt"
-  func main() {
-	  var arr1 [3]int
-	  var arr2 [3]int
-	  //var arr3 [2]int
-	  fmt.Println(arr1 == arr2) // true
-	  //fmt.Println(arr1 == arr3) // 编译报错, 不是相同类型不能比较
-  }
-  ```
+```go
+package main
+import "fmt"
+func main() {
+	var arr1 [3]int
+	var arr2 [3]int
+	//var arr3 [2]int
+	fmt.Println(arr1 == arr2) // true
+	//fmt.Println(arr1 == arr3) // 编译报错, 不是相同类型不能比较
+}
+```
   + 如果元素类型支持==、!=操作时,那么数组也支持此操作
-  ```go
-  package main
-  import "fmt"
-  func main() {
-	  var arr1 [3]int = [3]int{1, 3, 5}
-	  var arr2 [3]int = [3]int{1, 3, 5}
-	  var arr3 [3]int = [3]int{2, 4, 6}
-	  // 首先会判断`数据类型`是否相同,如果相同会依次取出数组中`对应索引的元素`进行比较, 
-	  // 如果所有元素都相同返回true,否则返回false
-	  fmt.Println(arr1 == arr2) // true
-	  fmt.Println(arr1 == arr3) // false
-   }
-  ```
+```go
+package main
+import "fmt"
+func main() {
+	var arr1 [3]int = [3]int{1, 3, 5}
+	var arr2 [3]int = [3]int{1, 3, 5}
+	var arr3 [3]int = [3]int{2, 4, 6}
+	// 首先会判断`数据类型`是否相同,如果相同会依次取出数组中`对应索引的元素`进行比较,
+	// 如果所有元素都相同返回true,否则返回false
+	fmt.Println(arr1 == arr2) // true
+	fmt.Println(arr1 == arr3) // false
+}
+```
   + Go语言中的数组是值类型, 赋值和传参时会复制整个数组
-  ```go
-  package main
-  import "fmt"
-  func main() {
+```go
+package main
+import "fmt"
+func main() {
 	var arr1 [3]int = [3]int{1, 3, 5}
 	var arr2 [3]int = arr1
 	arr2[0] = 666
 	fmt.Println(arr1) // [1 3 5]
 	fmt.Println(arr2) // [666 3 5]
-   }
-  ```
+}
+```
 ## 二维数组
 - 用法和C语言数组一样, 只是创建的格式不同
 - 格式: `[行数][列数]类型`
 ```go
-  package main
-  import "fmt"
-  func main() {
+package main
+import "fmt"
+func main() {
 	// 创建一个两行三列数组
 	arr := [2][3]int{
 		{1, 2, 3},
 		{4, 5, 6}, //注意: 数组换行需要以逗号结尾
 	}
 	fmt.Println(arr)// [[1 2 3] [4 5 6]]
-   }
+}
 ```
 - 创建多维数组时只允许第一维度使用...
 - 格式: `[...][列数]类型`
 ```go
 package main
-  import "fmt"
-  func main() {
+import "fmt"
+func main() {
 	// 创建一个两行三列数组
 	arr := [...][3]int{
 		{1, 2, 3},
 		{4, 5, 6},
 	}
 	fmt.Println(arr)// [[1 2 3] [4 5 6]]
-   }
+}
 ```
 ---
 ## 切片
 - 无论是C语言中的数组还是Go语言中的数组,数组的长度一旦确定就不能改变, 但在实际开发中我们可能事先不能确定数组的长度, 为了解决这类问题Go语言中推出了一种新的数据类型`切片`
 - 切片可以简单的理解为长度可以变化的数组, 但是Go语言中的切片本质上是一个结构体
   + 切片源码
-  ```go
-  type slice struct{
-    array unsafe.Pointer // 指向底层数组指针
-    len int // 切片长度(保存了多少个元素)
-    cap int // 切片容量(可以保存多少个元素)
-  }
+```go
+type slice struct{
+	array unsafe.Pointer // 指向底层数组指针
+	len int // 切片长度(保存了多少个元素)
+	cap int // 切片容量(可以保存多少个元素)
+}
   ```
 ---
 - ***切片创建的三种方式***
 - 方式一: 通过数组创建切片`array[startIndex:endIndex]`
-  ```go
-  package main
-  import "fmt"
-  func main() {
-	  var arr = [5]int{1, 3, 5, 7, 9}
-	  // 从数组0下标开始取,一直取到2下标前面一个索引
-	  var sce = arr[0:2]
-	  fmt.Println(sce) // [1 3]
-	  // 切片len = 结束位置 - 开始位置
-	  fmt.Println(len(sce)) // 2 - 0 = 2
-	  fmt.Println(cap(sce)) // 5 - 0 = 5
-	  // 数组地址就是数组首元素的地址
-	  fmt.Printf("%p\n", &arr) // 0xc04200a330
-	  fmt.Printf("%p\n", &arr[0]) // 0xc04200a330
-	  // 切片地址就是数组中指定的开始元素的地址
-	  //  arr[0:2]开始地址为0, 所以就是arr[0]的地址
-	  fmt.Printf("%p\n", sce) // 0xc04200a330
-  }
-  ```
+```go
+package main
+import "fmt"
+func main() {
+	var arr = [5]int{1, 3, 5, 7, 9}
+	// 从数组0下标开始取,一直取到2下标前面一个索引
+	var sce = arr[0:2]
+	fmt.Println(sce) // [1 3]
+	// 切片len = 结束位置 - 开始位置
+	fmt.Println(len(sce)) // 2 - 0 = 2
+	fmt.Println(cap(sce)) // 5 - 0 = 5
+	// 数组地址就是数组首元素的地址
+	fmt.Printf("%p\n", &arr) // 0xc04200a330
+	fmt.Printf("%p\n", &arr[0]) // 0xc04200a330
+	// 切片地址就是数组中指定的开始元素的地址
+	//  arr[0:2]开始地址为0, 所以就是arr[0]的地址
+	fmt.Printf("%p\n", sce) // 0xc04200a330
+}
+```
   ![image.png](https://img-blog.csdnimg.cn/img_convert/bd52b364c6cd33366b6164261f6b93fd.png)
-  ```go
-  package main
-  import "fmt"
-  func main() {
+```go
+package main
+import "fmt"
+func main() {
 	var arr = [5]int{1, 3, 5, 7, 9}
 	// 根据数组的索引片段创建切片
 	var sce = arr[2:4]
@@ -3398,17 +3397,17 @@ package main
 	fmt.Println(cap(sce)) // 5 - 2 = 3
 	fmt.Printf("%p\n", &arr[2]) // 0xc042076070
 	fmt.Printf("%p\n", sce) // 0xc042076070
-  }
-  ```
+}
+```
   ![](https://img-blog.csdnimg.cn/img_convert/e0a19ca5adf790ed65f4404b2943d383.png)
 - 指定起始位置时有三种方式可以指定
   + 开始位置和结束位置都指定
   + 只指定开始位置或结束位置
   + 开始位置和结束位置都不指定
 ```go
-  package main
-  import "fmt"
-  func main() {
+package main
+import "fmt"
+func main() {
 	var arr = [5]int{1, 3, 5, 7, 9}
 	// 同时指定开始位置和结束位置
 	var sce1 = arr[0:2]
@@ -3425,15 +3424,15 @@ package main
 	// 都不指定
 	var sce4 = arr[:]
 	fmt.Println(sce4) // [1 3 5 7 9]
-  }
+}
 ```
 - 方式二: 通过make函数创建` make(类型, 长度, 容量)`
   + 内部会先创建一个数组, 然后让切片指向数组
   + 如果没有指定容量,那么容量和长度一样
 ```go
- package main
- import "fmt"
- func main() {
+package main
+import "fmt"
+func main() {
 	// 第一个参数: 指定切片数据类型
 	// 第二个参数: 指定切片的长度
 	// 第三个参数: 指定切片的容量
@@ -3446,73 +3445,73 @@ package main
 	var arr = [5]int{0, 0, 0}
 	var sce = arr[0:3]
 	*/
- }
+}
 ```
 - 方式三:通过Go提供的语法糖快速创建
   + 和创建数组一模一样, 但是`不能指定长度`
   + 通过该方式创建时, 切片的`长度和容量相等`
 ```go
- package main
- import "fmt"
- func main() {
+package main
+import "fmt"
+func main() {
 	var sce = []int{1, 3, 5}
 	fmt.Println(sce) // [1 3 5]
 	fmt.Println(len(sce)) // 3
 	fmt.Println(cap(sce)) // 3
- }
+}
 ```
 ---
 - ***切片的使用***
   + 切片的基本使用方式和数组一样, 可以通过`切片名称[索引]`方式操作切片
-  ```go
-   package main
-   import "fmt"
-   func main() {
-	  var sce = []int{1, 3, 5}
-	  // 使用切片, 往切片中存放数据
-	  sce[1] = 666
-	  // 访问切片, 从切片中获取数据
-	  fmt.Println(sce) // [1 666 5]
-   }
-  ```
+```go
+package main
+import "fmt"
+func main() {
+	var sce = []int{1, 3, 5}
+	// 使用切片, 往切片中存放数据
+	sce[1] = 666
+	// 访问切片, 从切片中获取数据
+	fmt.Println(sce) // [1 666 5]
+}
+```
   + 和数组一样, 如果通过`切片名称[索引]`方式操作切片, 不能越界
-   ```go
-     package main
-     import "fmt"
-     func main() {
-	    var sce = []int{1, 3, 5}
-	    // 编译报错, 越界
-	    sce[3] = 666
-     }
-   ```
+```go
+package main
+import "fmt"
+func main() {
+	var sce = []int{1, 3, 5}
+	// 编译报错, 越界
+	sce[3] = 666
+}
+```
   + 如果希望切片自动扩容,那么添加数据时必须使用append方法
     + append函数会在切片`末尾`添加一个元素, 并返回一个追加数据之后的切片
     + 利用append函数追加数据时,如果追加之后没有超出切片的容量,那么返回原来的切片, 如果追加之后超出了切片的容量,那么返回一个新的切片
     + append函数每次给切片扩容都会按照原有切片容量*2的方式扩容
-   ```go
-     package main
-     import "fmt"
-     func main() {
-	  var sce = []int{1, 3, 5}
-	  fmt.Println("追加数据前:", sce) // [1 3 5]
-	  fmt.Println("追加数据前:", len(sce)) // 3
-	  fmt.Println("追加数据前:", cap(sce)) // 3
-	  fmt.Printf("追加数据前: %p\n", sce) // 0xc0420600a0
-	  // 第一个参数: 需要把数据追加到哪个切片中
-	  // 第二个参数: 需要追加的数据, 可以是一个或多个
-	  sce = append(sce, 666)
-	  fmt.Println("追加数据后:", sce) // [1 3 5 666]
-	  fmt.Println("追加数据后:", len(sce)) // 4
-	  fmt.Println("追加数据后:", cap(sce)) // 6
-	  fmt.Printf("追加数据前: %p\n", sce) // 0xc042076b60
-     }
-   ```
+```go
+package main
+import "fmt"
+func main() {
+	var sce = []int{1, 3, 5}
+	fmt.Println("追加数据前:", sce) // [1 3 5]
+	fmt.Println("追加数据前:", len(sce)) // 3
+	fmt.Println("追加数据前:", cap(sce)) // 3
+	fmt.Printf("追加数据前: %p\n", sce) // 0xc0420600a0
+	// 第一个参数: 需要把数据追加到哪个切片中
+	// 第二个参数: 需要追加的数据, 可以是一个或多个
+	sce = append(sce, 666)
+	fmt.Println("追加数据后:", sce) // [1 3 5 666]
+	fmt.Println("追加数据后:", len(sce)) // 4
+	fmt.Println("追加数据后:", cap(sce)) // 6
+	fmt.Printf("追加数据前: %p\n", sce) // 0xc042076b60
+}
+```
   + 除了append函数外,Go语言还提供了一个copy函数, 用于两个切片之间数据的快速拷贝
     + 格式: `copy(目标切片, 源切片)`, 会将源切片中数据拷贝到目标切片中
-  ```go
-     package main
-     import "fmt"
-     func main() {
+```go
+package main
+import "fmt"
+func main() {
 	var sce1 = []int{1, 3, 5}
 	var sce2 = make([]int, 5)
 	fmt.Printf("赋值前:%p\n", sce1) // 0xc0420600a0
@@ -3527,12 +3526,12 @@ package main
 	sce2[1] = 666
 	fmt.Println(sce1) // [1 666 5]
 	fmt.Println(sce2) // [1 666 5]
-     }
-  ```
-  ```go
-     package main
-     import "fmt"
-     func main() {
+}
+```
+```go
+package main
+import "fmt"
+func main() {
 	var sce1 = []int{1, 3, 5}
 	var sce2 = make([]int, 5)
 	fmt.Printf("赋值前:%p\n", sce1) // 0xc0420600a0
@@ -3547,13 +3546,13 @@ package main
 	sce2[1] = 666
 	fmt.Println(sce1) // [1 3 5]
 	fmt.Println(sce2) // [1 666 5 0 0]
-     }
-  ```
+}
+```
   + copy函数在拷贝数据时永远以小容量为准
-  ```go
-     package main
-     import "fmt"
-     func main() {
+```go
+package main
+import "fmt"
+func main() {
 	// 容量为3
 	var sce1 = []int{1, 3, 5}
 	// 容量为5
@@ -3562,12 +3561,12 @@ package main
 	// sce2容量足够, 会将sce1所有内容拷贝到sce2
 	copy(sce2, sce1)
 	fmt.Println("拷贝后:", sce2) // [1 3 5 0 0]
-     }
-  ```
-  ```go
-     package main
-     import "fmt"
-     func main() {
+}
+```
+```go
+package main
+import "fmt"
+func main() {
 	// 容量为3
 	var sce1 = []int{1, 3, 5}
 	// 容量为2
@@ -3576,83 +3575,83 @@ package main
 	// sce2容量不够, 会将sce1前2个元素拷贝到sce2中
 	copy(sce2, sce1)
 	fmt.Println("拷贝后:", sce2) // [1 3]
-     }
-  ```
+}
+```
 ---
 - ***切片的注意点***
   + 可以通过切片再次生成新的切片, 两个切片底层指向同一数组
-  ```go
-    package main
-    import "fmt"
-    func main() {
-        arr := [5]int{1, 3, 5, 7, 9}
-        sce1 := arr[0:4]
-        sce2 := sce1[0:3]
-        fmt.Println(sce1) // [1 3 5 7]
-        fmt.Println(sce2) // [1 3 5]
-        // 由于底层指向同一数组, 所以修改sce2会影响sce1
-        sce2[1] = 666
-        fmt.Println(sce1) // [1 666 5 7]
-        fmt.Println(sce2) // [1 666 5]
-     }
-  ```
+```go
+package main
+import "fmt"
+func main() {
+	arr := [5]int{1, 3, 5, 7, 9}
+	sce1 := arr[0:4]
+	sce2 := sce1[0:3]
+	fmt.Println(sce1) // [1 3 5 7]
+	fmt.Println(sce2) // [1 3 5]
+	// 由于底层指向同一数组, 所以修改sce2会影响sce1
+	sce2[1] = 666
+	fmt.Println(sce1) // [1 666 5 7]
+	fmt.Println(sce2) // [1 666 5]
+}
+```
   + 和数组不同, 切片只支持判断是否为nil, 不支持==、!=判断
-  ```go
-  package main
-  import "fmt"
-  func main() {
-      var arr1 [3]int = [3]int{1, 3, 5}
-      var arr2 [3]int = [3]int{1, 3, 5}
-      var arr3 [3]int = [3]int{2, 4, 6}
-      // 首先会判断`数据类型`是否相同,如果相同会依次取出数组中`对应索引的元素`进行比较, 
-      // 如果所有元素都相同返回true,否则返回false
-      fmt.Println(arr1 == arr2) // true
-      fmt.Println(arr1 == arr3) // false
-  
-      sce1 := []int{1, 3, 5}
-      sce2 := []int{1, 3, 5}
-      //fmt.Println(sce1 == sce2) // 编译报错
-      fmt.Println(sce1 != nil) // true
-      fmt.Println(sce2 == nil) // false
-   }
-  ```
-    + 只声明当没有被创建的切片是不能使用的
-  ```go
-  package main
-  import "fmt"
-  func main() {
+```go
+package main
+import "fmt"
+func main() {
+	var arr1 [3]int = [3]int{1, 3, 5}
+	var arr2 [3]int = [3]int{1, 3, 5}
+	var arr3 [3]int = [3]int{2, 4, 6}
+	// 首先会判断`数据类型`是否相同,如果相同会依次取出数组中`对应索引的元素`进行比较,
+	// 如果所有元素都相同返回true,否则返回false
+	fmt.Println(arr1 == arr2) // true
+	fmt.Println(arr1 == arr3) // false
+
+	sce1 := []int{1, 3, 5}
+	sce2 := []int{1, 3, 5}
+	//fmt.Println(sce1 == sce2) // 编译报错
+	fmt.Println(sce1 != nil) // true
+	fmt.Println(sce2 == nil) // false
+}
+```
+  + 只声明当没有被创建的切片是不能使用的
+```go
+package main
+import "fmt"
+func main() {
 	// 数组声明后就可以直接使用, 声明时就会开辟存储空间
 	var arr [3]int
 	arr[0] = 2
 	arr[1] = 4
 	arr[2] = 6
 	fmt.Println(arr) // [2 4 6]
-  
+
 	// 切片声明后不能直接使用, 只有通过make或语法糖创建之后才会开辟空间,才能使用
 	var sce []int
 	sce[0] = 2 // 编译报错
 	sce[1] = 4
 	sce[2] = 6
 	fmt.Println(sce)
-   }
-  ```
+}
+```
   + 字符串的底层是[]byte数组, 所以字符也支持切片相关操作
-  ```go
-  package main
-  import "fmt"
-  func main() {
+```go
+package main
+import "fmt"
+func main() {
 	str := "abcdefg"
 	// 通过字符串生成切片
 	sce1 := str[3:]
 	fmt.Println(sce1) // defg
-  
+
 	sce2 := make([]byte, 10)
 	// 第二个参数只能是slice或者是数组
 	// 将字符串拷贝到切片中
 	copy(sce2, str)
 	fmt.Println(sce2) //[97 98 99 100 101 102 103 0 0 0]
-   }
-  ```
+}
+```
 ## map(字典、映射)
 - map翻译过来就是字典或者映射, 可以把map看做是切片的升级版
   + 切片是用来存储一组相同类型的数据的, map也是用来存储一组相同类型的数据的
@@ -3671,7 +3670,7 @@ func main() {
 
 	// 获取map中某个key对应的值
 	fmt.Println(dic[0]) // 1
-	
+
 	// 修改map中某个key对应的值
 	dic[1] = 666
 	fmt.Println(dic) // map[0:1 1:666 2:5]
@@ -3786,14 +3785,14 @@ func main() {
 		fmt.Println("有age这个key,值为", value)
 	}
 }
-​```go
+```
 - ***map遍历***
   + 注意: map和数组以及切片不同,map中存储的数据是无序的, 所以多次打印输出的顺序可能不同
-​```go
-	var dict = map[string]string{"name":"lnj", "age":"33", "gender":"male"}
-	for key, value := range dict{
-		fmt.Println(key, value)
-	}
+```go
+var dict = map[string]string{"name":"lnj", "age":"33", "gender":"male"}
+for key, value := range dict{
+	fmt.Println(key, value)
+}
 ```
 ## 结构体
 - Go语言中的结构体和C语言中结构体一样, 都是用来保存一组`不同类型的数据`
@@ -3801,13 +3800,13 @@ func main() {
 - 定义结构体类型
 ```c
 type 类型名称 struct{
-  属性名称 属性类型
-  属性名称 属性类型
-  ... ...
+	属性名称 属性类型
+	属性名称 属性类型
+	... ...
 }
 ```
 ```c
-type Studentstruct {
+type Student struct {
 	name string
 	age int
 }
@@ -3815,15 +3814,15 @@ type Studentstruct {
 - 创建结构体变量的两种方式
   + 方式一: 先定义结构体类型, 再定义结构体变量
     * 和C语言中的结构体一样, 如果结构体类型需要多次使用, 那么建议先定义类型再定义变量
-  ```go
-  package main
-  import "fmt"
-  func main() {
+```go
+package main
+import "fmt"
+func main() {
 	type Student struct {
 		name string
 		age int
-	}	
-  
+	}
+
 	// 完全初始化
 	var stu1= Student{"lnj", 33}
 	fmt.Println(stu1)
@@ -3831,14 +3830,14 @@ type Studentstruct {
 	// 部分初始化必须通过 属性名称: 方式指定要初始化的属性
 	var stu2 = Student{name:"lnj"}
 	fmt.Println(stu2)
-  }
-  ```
+}
+```
   + 方式二: 定义结构体类型同时定义结构体变量(匿名结构体)
     * 和C语言中的结构体一样, 如果结构体类型只需要使用一次, 那么建议定义类型同时定义变量
-  ```go
-  package main
-  import "fmt"
-  func main() {
+```go
+package main
+import "fmt"
+func main() {
 	// 注意: 这里不用写type和结构体类型名称
 	var stu2 = struct {
 		name string
@@ -3848,18 +3847,18 @@ type Studentstruct {
 		age: 33,
 	}
 	fmt.Println(stu2)
-  }
-  ```
+}
+```
 ---
 - 结构体类型操作
 ```go
-  package main
-  import "fmt"
-  type Student struct {
-	  name string
-	  age int
-  }
-  func main() {
+package main
+import "fmt"
+type Student struct {
+	name string
+	age int
+}
+func main() {
 	var stu= Student{"lnj", 33}
 	// 获取结构体中某个属性对应的值
 	fmt.Println(stu.name)
@@ -3867,37 +3866,37 @@ type Studentstruct {
 	// 修改结构体中某个属性对应的值
 	stu.name = "zs"
 	fmt.Println(stu)
-  }
+}
 ```
 
 - 和slice、map不同的是, 只要定义了结构体变量就可以使用结构体变量
   + 默认情况下结构体中的所有属性都是属性对应类型的默认值
 ```go
-  package main
-  import "fmt"
-  type Student struct {
-	  name string
-	  age int
-  }
-  func main() {
+package main
+import "fmt"
+type Student struct {
+	name string
+	age int
+}
+func main() {
 	var stu Student // 相当于 var stu = Student{}
 	fmt.Println(stu) // { 0}
 	stu.name = "lnj" // 不会报错
 	stu.age = 33
 	fmt.Println(stu) // {lnj 33}
-  }
+}
 ```
 ---
 - 复杂结构体成员
   + 创建时可以按照属性单独存在时初始化方式初始化
-  ```go
-  package main
-  import "fmt"
-  type Student struct {
-	  name string
-	  age int
-  }
-  func main() {
+```go
+package main
+import "fmt"
+type Student struct {
+	name string
+	age int
+}
+func main() {
 	type Demo struct {
 		age int // 基本类型作为属性
 		arr [3]int // 数组类型作为属性
@@ -3905,7 +3904,7 @@ type Studentstruct {
 		mp map[string]string // 字典类型作为属性
 		stu Student // 结构体类型作为属性
 	}
-  
+
 	var d Demo = Demo{
 		33,
 		[3]int{1, 3, 5},
@@ -3917,17 +3916,17 @@ type Studentstruct {
 		},
 	}
 	fmt.Println(d) // {33 [1 3 5] [2 4 6] map[class:one] {lnj 33}}
-  }
-  ```
+}
+```
   + slice、map类型属性默认值是nil,不能直接使用
-  ```go
-  package main
-  import "fmt"
-  type Student struct {
-	  name string
-	  age int
-  }
-  func main() {
+```go
+package main
+import "fmt"
+type Student struct {
+	name string
+	age int
+}
+func main() {
 	type Demo struct {
 		age int // 基本类型作为属性
 		arr [3]int // 数组类型作为属性
@@ -3935,7 +3934,7 @@ type Studentstruct {
 		mp map[string]string // 字典类型作为属性
 		stu Student // 结构体类型作为属性
 	}
-  
+
 	// 定义结构体变量
 	var d Demo
 	// 可以直接使用基本类型属性
@@ -3953,16 +3952,16 @@ type Studentstruct {
 	// 可以直接使用结构体类型属性
 	d.stu.name = "lnj"
 	fmt.Println(d) // {33 [666 0 0] [888 0 0 0 0] map[class:one] {lnj 0}}
-  }
-  ```
+}
+```
 ---
 - 结构体类型转换
   + 属性名、属性类型、属性个数、排列顺序都是类型组成部分
   + 只有属性名、属性类型、属性个数、排列顺序都相同的结构体类型才能转换
 ```go
-  package main
-  import "fmt"
-  func main() {
+package main
+import "fmt"
+func main() {
 	type Person1 struct {
 		name string
 		age int
@@ -4016,16 +4015,16 @@ type Studentstruct {
 	//var p6 Person6
 	//p6 = Person6(p1)
 	//fmt.Println(p6)
-  }
+}
 ```
 ---
 - 匿名属性
   + 没有指定属性名称,只有属性的类型, 我们称之为匿名属性
   + 任何`有命名的数据类型`都可以作为匿名属性(int、float、bool、string、struct等)
-  ```go
-  package main
-  import "fmt"
-  func main() {
+```go
+package main
+import "fmt"
+func main() {
 	type Person struct {
 		int
 		float32
@@ -4035,7 +4034,7 @@ type Studentstruct {
 	// 不指定名称初始化
 	per1 := Person{3, 3.14, false, "lnj"}
 	fmt.Println(per1)
-  
+
 	// 可以把数据类型作为名字显示初始化
 	per2 := Person{
 		int: 3,
@@ -4044,17 +4043,17 @@ type Studentstruct {
 		string: "lnj",
 	}
 	fmt.Println(per2)
-  
+
 	// 可以把数据类型当做属性名称操作结构体
 	per2.int = 666
 	fmt.Println(per2.int) // 666
-  }
-  ```
+}
+```
   + Go语言中最常见的匿名属性是用`结构体类型作为匿名属性`
-   ```go
-  package main
-  import "fmt"
-  func main() {
+```go
+package main
+import "fmt"
+func main() {
 	type Person struct {
 		name string
 		age int
@@ -4063,19 +4062,19 @@ type Studentstruct {
 		Person // 匿名属性
 		class string
 	}
-  
+
 	stu := Student{
 		Person{"lnj", 33},
 		"学前一班",
 	}
 	fmt.Println(stu) // {{lnj 33} 学前一班}
-  }
-   ```
+}
+```
   + 如果结构体作为匿名属性, 想访问匿名属性的属性有两种方式
-  ```go
-  package main
-  import "fmt"
-  func main() {
+```go
+package main
+import "fmt"
+func main() {
 	type Person struct {
 		name string
 		age int
@@ -4084,13 +4083,13 @@ type Studentstruct {
 		Person // 匿名属性
 		class string
 	}
-  
+
 	stu := Student{
 		Person{"lnj", 33},
 		"学前一班",
 	}
 	fmt.Println(stu) // {{lnj 33} 学前一班}
-  
+
 	// 方式一: 先找到匿名属性,再访问匿名属性中的属性
 	stu.Person.name = "zs"
 	fmt.Println(stu) // {{zs 33} 学前一班}
@@ -4099,13 +4098,13 @@ type Studentstruct {
 	// 如果没有会继续查找匿名属性中有没有名称叫做name的属性
 	stu.name = "ww"
 	fmt.Println(stu) // {{ww 33} 学前一班}
-  }
-  ```
+}
+```
   + 注意点: 如果多个匿名属性的属性名称相同,那么不能通过方式二操作,只能通过方式一
-  ```go
-  package main
-  import "fmt"
-  func main() {
+```go
+package main
+import "fmt"
+func main() {
 	type Person struct {
 		name string
 		age int
@@ -4125,17 +4124,17 @@ type Studentstruct {
 	fmt.Println(stu) // {{lnj 33} {学前一班 2020-12-12}}
 	// 编译报错, 系统搞不清楚要找哪个name
 	//stu.name = "zs"
-  
+
 	stu.Person.name = "zs"
 	stu.Class.name = "小学一年级"
 	fmt.Println(stu) // {{zs 33} {小学一年级 2020-12-12}}
-  }
-  ```
+}
+```
   - 注意点: 只有匿名结构体才支持向上查找
-  ```go
-  package main
-  import "fmt"
-  func main() {
+```go
+package main
+import "fmt"
+func main() {
 	type Person struct {
 		name string
 	}
@@ -4143,18 +4142,18 @@ type Studentstruct {
 		per Person
 		age int
 	}
-  
+
 	var stu Student = Student{Person{"lnj"}, 18}
 	//fmt.Println(stu.name) // 报错
 	fmt.Println(stu.per.name) // 必须通过属性进一步查找
 	fmt.Println(stu.age)
-  }
-  ```
+}
+```
   + 注意点: 如果匿名属性是一个结构体类型, 那么这个结构体类型不能是自己
-  ```go
-  package main
-  import "fmt"
-  func main() {
+```go
+package main
+import "fmt"
+func main() {
 	type Person struct {
 		Person // 错误
 		name string
@@ -4163,8 +4162,8 @@ type Studentstruct {
 		*Student  // 正确, 链表
 		age int
 	}
-  }
-  ```
+}
+```
 ## 普通指针
 - 和C语言一样, 允许用一个变量来存放其它变量的地址, 这种专门用于存储其它变量地址的变量, 我们称之为指针变量
 - 和C语言一样, Go语言中的指针无论是什么类型占用内存都一样(32位4个字节, 64位8个字节)
@@ -4227,7 +4226,6 @@ int main(){
 ```go
 package main
 import "fmt"
-
 func main() {
 	var arr [3]int = [3]int{1, 3, 5}
 	fmt.Printf("%p\n", arr) // 乱七八糟东西
@@ -4261,6 +4259,7 @@ package main
 import "fmt"
 
 func main() {
+	var arr [3]int = [3]int{1, 3, 5}
 	// 1.错误, 在Go语言中必须类型一模一样才能赋值
 	// arr类型是[3]int, p1的类型是*[3]int
 	var p1 *[3]int
@@ -4355,7 +4354,7 @@ func main() {
 	// 打印*p打印出来的是切片变量保存的地址, 也就是数组的地址 *p = 0xc0420620a0
 	fmt.Printf("*p = %p\n", *p)
 	fmt.Println(*p) // [1 3 5]
-	
+
 	// 5.修改切片的值
 	// 通过*p找到切片变量指向的存储空间(数组), 然后修改数组中保存的数据
 	(*p)[1] = 666
@@ -4381,33 +4380,33 @@ func main() {
 - Go语言中指向结构体的指针和C语言一样
 - 结构体和指针
   + 创建结构体指针变量有两种方式
-  ```go
-  package main
-  import "fmt"
-  type Student struct {
-	  name string
-	  age int
-  }
-  func main() {
+```go
+package main
+import "fmt"
+type Student struct {
+	name string
+	age int
+}
+func main() {
 	// 创建时利用取地址符号获取结构体变量地址
 	var p1 = &Student{"lnj", 33}
 	fmt.Println(p1) // &{lnj 33}
-  
+
 	// 通过new内置函数传入数据类型创建
 	// 内部会创建一个空的结构体变量, 然后返回这个结构体变量的地址
 	var p2 = new(Student)
 	fmt.Println(p2) // &{ 0}
-  }
-  ```
+}
+```
   + 利用结构体指针操作结构体属性
-  ```go
-  package main
-  import "fmt"
-  type Student struct {
-	  name string
-	  age int
-  }
-  func main() {
+```go
+package main
+import "fmt"
+type Student struct {
+	name string
+	age int
+}
+func main() {
 	var p = &Student{}
 	// 方式一: 传统方式操作
 	// 修改结构体中某个属性对应的值
@@ -4415,14 +4414,14 @@ func main() {
 	(*p).name = "lnj"
 	// 获取结构体中某个属性对应的值
 	fmt.Println((*p).name) // lnj
-  
+
 	// 方式二: 通过Go语法糖操作
 	// Go语言作者为了程序员使用起来更加方便, 在操作指向结构体的指针时可以像操作接头体变量一样通过.来操作
 	// 编译时底层会自动转发为(*p).age方式
 	p.age = 33
 	fmt.Println(p.age) // 33
-  }
-  ```
+}
+```
 ## 指针作为函数参数和返回值
 - 如果指针类型作为函数参数, 修改形参会影响实参
 - 不能将函数内的指向局部变量的指针作为返回值, 函数结束指向空间会被释放
@@ -4463,139 +4462,139 @@ func main() {
 ---
 - 方法和函数异同
   + 方法的数据类型也是函数类型, 所以也可以定义变量保存(作为参数返回值等)
-  ```go
-  package main
-  import "fmt"
-  type Person struct {
+```go
+package main
+import "fmt"
+type Person struct {
 	name string
 	age int
-  }
-  // 定义一个方法
-  func (p Person)say()  {
+}
+// 定义一个方法
+func (p Person)say()  {
 	fmt.Println("say方法")
-  }
-  // 定义一个函数
-  func say()  {
+}
+// 定义一个函数
+func say()  {
 	fmt.Println("say函数")
-  }
-  func main() {
+}
+func main() {
 	p := Person{"lnj", 33}
 	fmt.Printf("%T\n", p.say) // func()
 	fmt.Printf("%T\n", say) // func()
-  
+
 	// 定义一个保存没有形参没有返回值的函数类型变量
 	var fn func()
 	// 利用函数类型变量保存一个方法
 	fn = p.say
 	// 利用函数类型变量调用一个方法
 	fn()
-  
+
 	// 利用函数类型变量保存一个函数
 	fn = say
 	// 利用函数类型变量调用一个函数
 	fn()
-  }
-  ```
+}
+```
   + 方法只能通过绑定类型的变量调用, 函数可以直接调用
-   ```go
-  package main
-  import "fmt"
-  type Person struct {
-	  name string
-	  age int
-  }
-  // 定义一个方法
-  func (p Person)say()  {
-  	  fmt.Println("my name is", p.name, "my age is", p.age)
-  }
-  // 定义一个函数
-  func test()  {
-	  fmt.Println("test")
-  }
-  func main() {
-	  per := Person{"lnj", 33}
-	  per.say() // 方法只能通过绑定类型的变量调用
-	  //say() // 编译报错, 不能直接调用
-	  test() // 编译通过, 可以直接调用
-  }
-   ```
+```go
+package main
+import "fmt"
+type Person struct {
+	name string
+	age int
+}
+// 定义一个方法
+func (p Person)say()  {
+	fmt.Println("my name is", p.name, "my age is", p.age)
+}
+// 定义一个函数
+func test()  {
+	fmt.Println("test")
+}
+func main() {
+	per := Person{"lnj", 33}
+	per.say() // 方法只能通过绑定类型的变量调用
+	//say() // 编译报错, 不能直接调用
+	test() // 编译通过, 可以直接调用
+}
+```
   + 方法的接收者可以看做就是函数的一个形参
-   ```go
-  package main
-  import "fmt"
-  type Person struct {
-	  name string
-	  age int
-  }
-  // 定义一个方法
-  func (p Person)say()  {
-  	  fmt.Println("my name is", p.name, "my age is", p.age)
-  }
-  // 定义一个函数
-  func test(p Person)  {
-	  fmt.Println("my name is", p.name, "my age is", p.age)
-  }
-  func main() {
-	  per := Person{"lnj", 33}
-	  per.say() // my name is lnj my age is 33
-	  test(per) // my name is lnj my age is 33
-  }
-   ```
+```go
+package main
+import "fmt"
+type Person struct {
+	name string
+	age int
+}
+// 定义一个方法
+func (p Person)say()  {
+	fmt.Println("my name is", p.name, "my age is", p.age)
+}
+// 定义一个函数
+func test(p Person)  {
+	fmt.Println("my name is", p.name, "my age is", p.age)
+}
+func main() {
+	per := Person{"lnj", 33}
+	per.say() // my name is lnj my age is 33
+	test(per) // my name is lnj my age is 33
+}
+```
   + 既然可以看做形参, 那么自然也具备形参的特点(值传递和地址传递)
-   ```go
-  package main
-  import "fmt"
-  type Person struct {
-	  name string
-	  age int
-  }
-  // 接收者是一个变量
-  func (p Person)setName(name string)  {
-	  p.name = name
-  }
-  // 接收者是一个指针
-  func (p *Person)setAge(age int)  {
-	  p.age = age
-  }
-  func main() {
-	  per := Person{"lnj", 33}
-	  fmt.Println(per) // {lnj 33}
-	  // 值传递, 方法内部修改不会影响方法外部
-	  per.setName("zs")
-	  fmt.Println(per) // {lnj 33}
-	  p := &per
-	  // 地址传递, 方法内部修改会影响方法外部
-	  (*p).setAge(18)
-	  fmt.Println(per) // {lnj 18}
-  }
-   ```
+```go
+package main
+import "fmt"
+type Person struct {
+	name string
+	age int
+}
+// 接收者是一个变量
+func (p Person)setName(name string)  {
+	p.name = name
+}
+// 接收者是一个指针
+func (p *Person)setAge(age int)  {
+	p.age = age
+}
+func main() {
+	per := Person{"lnj", 33}
+	fmt.Println(per) // {lnj 33}
+	// 值传递, 方法内部修改不会影响方法外部
+	per.setName("zs")
+	fmt.Println(per) // {lnj 33}
+	p := &per
+	// 地址传递, 方法内部修改会影响方法外部
+	(*p).setAge(18)
+	fmt.Println(per) // {lnj 18}
+}
+```
   + 地址传递的几种调用方式
-   ```go
-  package main
-  import "fmt"
-  type Person struct {
-	  name string
-	  age int
-  }
-  // 接收者是一个变量
-  func (p Person)setName(name string)  {
-	  p.name = name
-  }
-  // 接收者是一个指针
-  func (p *Person)setAge(age int)  {
-	  p.age = age
-  }
-  func main() {
-	  per := Person{"lnj", 33}
-	  // 方式一: 先拿到指针,然后再通过指针调用
-	  p := &per
-	  (*p).setAge(18)
-	  fmt.Println(per) // {lnj 18}
-	  // 方式二: 直接利用变量调用, 底层会自动获取变量地址传递给接收者
-	  per.setAge(66)
-	  fmt.Println(per) // {lnj 66}
-  }
-   ```
+```go
+package main
+import "fmt"
+type Person struct {
+	name string
+	age int
+}
+// 接收者是一个变量
+func (p Person)setName(name string)  {
+	p.name = name
+}
+// 接收者是一个指针
+func (p *Person)setAge(age int)  {
+	p.age = age
+}
+func main() {
+	per := Person{"lnj", 33}
+	// 方式一: 先拿到指针,然后再通过指针调用
+	p := &per
+	(*p).setAge(18)
+	fmt.Println(per) // {lnj 18}
+	// 方式二: 直接利用变量调用, 底层会自动获取变量地址传递给接收者
+	per.setAge(66)
+	fmt.Println(per) // {lnj 66}
+}
+```
 ---
 ## 接口
 - Go语言中的接口和现实生活中的USB插槽很像, 它定义某种标准, 但不关心具体实现
@@ -4655,289 +4654,289 @@ func main() {
 ```
 - 接口注意点
   + 接口中只能有方法的声明不能有方法的实现
-  ```go
-  type usber interface {
-	  func start(){ // 错误
-		  fmt.Println("启动")
-	  }
-	  func stop()  { // 错误
-		  fmt.Println("停止")
-	  }
-  }
-  ```
+```go
+type usber interface {
+	func start(){ // 错误
+		fmt.Println("启动")
+	}
+	func stop()  { // 错误
+		fmt.Println("停止")
+	}
+}
+```
   + 接口中只能有方法什么不能有字段
-  ```
-  type usber interface {
-	  name string // 错误
-	  start()
-	  stop()
-  }
-  ```
+```go
+type usber interface {
+	name string // 错误
+	start()
+	stop()
+}
+```
   + 只有实现了接口中所有的方法, 才算实现了接口, 才能用`该接口类型`接收
-  ```go
-  package main
-  import "fmt"
-  // 1.定义一个接口
-  type usber interface {
-	  start()
-	  stop()
-  }
-  type Computer struct {
-	  name string
-	  model string
-  }
-  // 2.实现接口中的所有方法
-  func (cm Computer)start() {
-	  fmt.Println("启动电脑")
-  }
-  func (cm Computer)stop() {
-	  fmt.Println("关闭电脑")
-  }
-  // 2.只实现了接口中部分方法
-  type Phone struct {
-	  name string
-	  model string
-  }
-  func (p Phone)start()  {
-	  fmt.Println("启动手机")
-  }
-  func main() {
-	  // 1.定义一个usber接口类型变量
-	  var i usber
-	  // 2.用usber接口类型变量接收Computer类型结构体
-	  i = Computer{"戴尔", "F1234"} // 实现了所有方法, 不会报错
-	  // 3.用usber接口类型变量接收Phone类型结构体
-	  //i = Phone{"华为", "M10"} // 只实现了部分方法, 会报错
-	  fmt.Println(i)
-  }
-  ```
+```go
+package main
+import "fmt"
+// 1.定义一个接口
+type usber interface {
+	start()
+	stop()
+}
+type Computer struct {
+	name string
+	model string
+}
+// 2.实现接口中的所有方法
+func (cm Computer)start() {
+	fmt.Println("启动电脑")
+}
+func (cm Computer)stop() {
+	fmt.Println("关闭电脑")
+}
+// 2.只实现了接口中部分方法
+type Phone struct {
+	name string
+	model string
+}
+func (p Phone)start()  {
+	fmt.Println("启动手机")
+}
+func main() {
+	// 1.定义一个usber接口类型变量
+	var i usber
+	// 2.用usber接口类型变量接收Computer类型结构体
+	i = Computer{"戴尔", "F1234"} // 实现了所有方法, 不会报错
+	// 3.用usber接口类型变量接收Phone类型结构体
+	//i = Phone{"华为", "M10"} // 只实现了部分方法, 会报错
+	fmt.Println(i)
+}
+```
   + 和结构体一样,接口中也可以嵌入接口
-  ```go
-  package main
-  import "fmt"
-  type A interface {
-	  fna()
-  }
-  type B interface {
-	  fnb()
-  }
-  type C interface {
-	  A // 嵌入A接口
-	  B // 嵌入B接口
-	  fnc()
-  }
-  type Person struct {}
-  func (p Person)fna()  {
-	  fmt.Println("实现A接口中的方法")
-  }
-  func (p Person)fnb()  {
-	  fmt.Println("实现B接口中的方法")
-  }
-  func (p Person)fnc()  {
-	  fmt.Println("实现C接口中的方法")
-  }
-  func main() {
-	  p := Person{}
-	  p.fna() // 实现A接口中的方法
-	  p.fnb() // 实现B接口中的方法
-	  p.fnc() // 实现C接口中的方法
-  }
-  ```
-  + 和结构体一样,接口中嵌入接口时不能嵌入自己
-  ```go
-  type A interface {
-	  A // 报错, 不能自己搞自己
-  }
-  ```
-  + 接口中嵌入接口时不能出现相同的方法名称
-  ```go
-  type A interface {
-	  fn()
-  }
-  type B interface {
-	  fn()
-  }
-  type C interface {
-	  A 
-	  B // 报错, A接口和B接口都有名称叫做fn的方法
-	  fnc()
-  }
-  ```
-  + 超集接口变量可以自动转换成子集接口变量, 子集接口变量不能转换为超集接口变量(本质就是没有实现所有方法)
-  ```go
-  package main
-  import "fmt"
-  type aer interface {
-	  fna()
-  }
-  type ber interface {
-	  aer
-	  fnb()
-  }
-  // Person实现了超集接口所有方法
-  type Person struct {}
-  func (p Person)fna()  {
-	  fmt.Println("实现A接口中的方法")
-  }
-  func (p Person)fnb()  {
-	  fmt.Println("实现B接口中的方法")
-  }
-  // Student实现了子集接口所有方法
-  type Student struct { }
-  func (p Student)fna()  {
+```go
+package main
+import "fmt"
+type A interface {
+	fna()
+}
+type B interface {
+	fnb()
+}
+type C interface {
+	A // 嵌入A接口
+	B // 嵌入B接口
+	fnc()
+}
+type Person struct {}
+func (p Person)fna()  {
 	fmt.Println("实现A接口中的方法")
-  }
-  func main() {
-	  var i ber
-	  // 子集接口变量不能转换为超集接口变量
-	  //i = Student{}
-	  fmt.Println(i)
-	  var j aer
-	  // 超集接口变量可以自动转换成子集接口变量,
-	  j = Person{}
-	  fmt.Println(j)
-  }
-  ```
+}
+func (p Person)fnb()  {
+	fmt.Println("实现B接口中的方法")
+}
+func (p Person)fnc()  {
+	fmt.Println("实现C接口中的方法")
+}
+func main() {
+	p := Person{}
+	p.fna() // 实现A接口中的方法
+	p.fnb() // 实现B接口中的方法
+	p.fnc() // 实现C接口中的方法
+}
+```
+  + 和结构体一样,接口中嵌入接口时不能嵌入自己
+```go
+type A interface {
+	A // 报错, 不能自己搞自己
+}
+```
+  + 接口中嵌入接口时不能出现相同的方法名称
+```go
+type A interface {
+	fn()
+}
+type B interface {
+	fn()
+}
+type C interface {
+	A
+	B // 报错, A接口和B接口都有名称叫做fn的方法
+	fnc()
+}
+```
+  + 超集接口变量可以自动转换成子集接口变量, 子集接口变量不能转换为超集接口变量(本质就是没有实现所有方法)
+```go
+package main
+import "fmt"
+type aer interface {
+	fna()
+}
+type ber interface {
+	aer
+	fnb()
+}
+// Person实现了超集接口所有方法
+type Person struct {}
+func (p Person)fna()  {
+	fmt.Println("实现A接口中的方法")
+}
+func (p Person)fnb()  {
+	fmt.Println("实现B接口中的方法")
+}
+// Student实现了子集接口所有方法
+type Student struct { }
+func (p Student)fna()  {
+	fmt.Println("实现A接口中的方法")
+}
+func main() {
+	var i ber
+	// 子集接口变量不能转换为超集接口变量
+	//i = Student{}
+	fmt.Println(i)
+	var j aer
+	// 超集接口变量可以自动转换成子集接口变量,
+	j = Person{}
+	fmt.Println(j)
+}
+```
   + 空接口类型可以接收任意类型数据
-  ```go
-  package main
-  import "fmt"
-  func main() {
-	  // 1.定义一个空接口类型变量
-	  var i interface{}
-	  // 2.用接口类型保存任意类型数据
-	  i = 123
-	  fmt.Println(i) // 123
-	  i = 3.14
-	  fmt.Println(i) // 3.14
-	  i = "lnj"
-	  fmt.Println(i) // lnj
-	  i = [3]int{1, 3, 5}
-	  fmt.Println(i) // [1 3 5]
-	  i = []int{2, 4, 6}
-	  fmt.Println(i) // [2 4 6]
-	  i = map[string]string{"name": "lnj"}
-	  fmt.Println(i) // map[name:lnj]
-	  i = Computer{"戴尔", "F1234"}
-	  fmt.Println(i) // {戴尔 F1234}
-  }
-  ```
+```go
+package main
+import "fmt"
+func main() {
+	// 1.定义一个空接口类型变量
+	var i interface{}
+	// 2.用接口类型保存任意类型数据
+	i = 123
+	fmt.Println(i) // 123
+	i = 3.14
+	fmt.Println(i) // 3.14
+	i = "lnj"
+	fmt.Println(i) // lnj
+	i = [3]int{1, 3, 5}
+	fmt.Println(i) // [1 3 5]
+	i = []int{2, 4, 6}
+	fmt.Println(i) // [2 4 6]
+	i = map[string]string{"name": "lnj"}
+	fmt.Println(i) // map[name:lnj]
+	i = Computer{"戴尔", "F1234"}
+	fmt.Println(i) // {戴尔 F1234}
+}
+```
   + 只要是自定义类型就可以实现接口
-  ```go
-  package main
-  import "fmt"
-  // 1.定义一个接口
-  type usber interface {
-	  start()
-	  stop()
-  }
-  // 2.自定义int类型
-  type integer int
-  // 2.实现接口中的所有方法
-  func (i integer)start()  {
-	  fmt.Println("int类型实现接口")
-  }
-  func (i integer)stop()  {
-	  fmt.Println("int类型实现接口")
-  }
-  func main() {
-	  var i integer = 666
-	  i.start() // int类型实现接口
-	  i.stop() // int类型实现接口
-  }
-  ```
+```go
+package main
+import "fmt"
+// 1.定义一个接口
+type usber interface {
+	start()
+	stop()
+}
+// 2.自定义int类型
+type integer int
+// 2.实现接口中的所有方法
+func (i integer)start()  {
+	fmt.Println("int类型实现接口")
+}
+func (i integer)stop()  {
+	fmt.Println("int类型实现接口")
+}
+func main() {
+	var i integer = 666
+	i.start() // int类型实现接口
+	i.stop() // int类型实现接口
+}
+```
 - 接口类型转换
   + 接口类型变量可以接收实现了该接口类型的变量, 但是只能调用该变量中的方法, 不能访问该变量的属性
-  ```go
-  package main
-  import "fmt"
-  type studier interface {
-	  read()
-  }
-  type Person struct {
-	  name string
-	  age int
-  }
-  func (p Person)read()  {
-	  fmt.Println(p.name, "正在学习")
-  }
-  func main() {
-	  // 1.定义一个接口类型变量
-	  var s studier
-	  // 2.用接口类型变量接收实现了接口的结构体
-	  s = Person{"lnj", 33}
-	  s.name = "zs" // 报错, 由于s是接口类型, 所以不能访问属性
-	  fmt.Println(s)
-  }
-  ```
+```go
+package main
+import "fmt"
+type studier interface {
+	read()
+}
+type Person struct {
+	name string
+	age int
+}
+func (p Person)read()  {
+	fmt.Println(p.name, "正在学习")
+}
+func main() {
+	// 1.定义一个接口类型变量
+	var s studier
+	// 2.用接口类型变量接收实现了接口的结构体
+	s = Person{"lnj", 33}
+	s.name = "zs" // 报错, 由于s是接口类型, 所以不能访问属性
+	fmt.Println(s)
+}
+```
   + 想要访问变量中的属性, 必须将接口类型还原为原始类型
-  ```go
-  package main
-  import "fmt"
-  type studier interface {
-	  read()
-  }
-  type Person struct {
-	  name string
-	  age int
-  }
-  func (p Person)read()  {
-	  fmt.Println(p.name, "正在学习")
-  }
-  func main() {
-	  var s studier
-	  s = Person{"lnj", 33}
-	  s.name = "zs" // 报错, 由于s是接口类型, 所以不能访问属性
-	  // 2.定义一个结构体类型变量
-	  //var p Person
-	  // 不能用强制类型转换方式将接口类型转换为原始类型
-	  //p = Person(s) // 报错
-  
-	  // 2.利用ok-idiom模式将接口类型还原为原始类型
-	  // s.(Person)这种格式我们称之为: 类型断言
-	  if p, ok := s.(Person); ok {
-		  p.name = "zs"
-		  fmt.Println(p)
-	  }
-  
-	  // 2.通过 type switch将接口类型还原为原始类型
-	 // 注意: type switch不支持fallthrought
-	  switch p := s.(type) {
-		  case Person:
-			  p.name = "zs"
-			  fmt.Println(p) // {zs 33}
-		  default:
-			  fmt.Println("不是Person类型")
-	  }
-  }
-  ```
+```go
+package main
+import "fmt"
+type studier interface {
+	read()
+}
+type Person struct {
+	name string
+	age int
+}
+func (p Person)read()  {
+	fmt.Println(p.name, "正在学习")
+}
+func main() {
+	var s studier
+	s = Person{"lnj", 33}
+	s.name = "zs" // 报错, 由于s是接口类型, 所以不能访问属性
+	// 2.定义一个结构体类型变量
+	//var p Person
+	// 不能用强制类型转换方式将接口类型转换为原始类型
+	//p = Person(s) // 报错
+
+	// 2.利用ok-idiom模式将接口类型还原为原始类型
+	// s.(Person)这种格式我们称之为: 类型断言
+	if p, ok := s.(Person); ok {
+		p.name = "zs"
+		fmt.Println(p)
+	}
+
+	// 2.通过 type switch将接口类型还原为原始类型
+	// 注意: type switch不支持fallthrought
+	switch p := s.(type) {
+		case Person:
+		p.name = "zs"
+		fmt.Println(p) // {zs 33}
+		default:
+		fmt.Println("不是Person类型")
+	}
+}
+```
   + 除了可以将接口类型转换为原始类型以外, 企业开发中有时候可能我们还需要将抽象接口类型转换为具体接口类型
-  ```go
-  package main
-  import "fmt"
-  type studier interface {
-	  read()
-  }
-  type Person struct {
-	  name string
-	  age int
-  }
-  func (p Person)read()  {
-	  fmt.Println(p.name, "正在学习")
-  }
-  func main() {
-	  // 1.定义一个抽象接口类型
-	  var i interface{}
-	  i = Person{"lnj", 33}
-	  // 不能调用read方法, 因为抽象接口中没有这个方法
-	  //i.read()
-	  // 2.利用ok-idiom模式将抽象接口转换为具体接口
-	  if s, ok := i.(studier); ok{
-		  // 可以调用read方法,因为studier中声明了这个方法,并且结构体中实现了这个方法
-		  s.read() // lnj 正在学习
-	  }
-    }
-  ```
+```go
+package main
+import "fmt"
+type studier interface {
+	read()
+}
+type Person struct {
+	name string
+	age int
+}
+func (p Person)read()  {
+	fmt.Println(p.name, "正在学习")
+}
+func main() {
+	// 1.定义一个抽象接口类型
+	var i interface{}
+	i = Person{"lnj", 33}
+	// 不能调用read方法, 因为抽象接口中没有这个方法
+	//i.read()
+	// 2.利用ok-idiom模式将抽象接口转换为具体接口
+	if s, ok := i.(studier); ok{
+		// 可以调用read方法,因为studier中声明了这个方法,并且结构体中实现了这个方法
+		s.read() // lnj 正在学习
+	}
+}
+```
 
 # Go语言进阶
 
@@ -4951,7 +4950,7 @@ func main() {
 
 ---
 ## 面向对象和面向过程区别
--  面向对象是相对面向过程而言
+- 面向对象是相对面向过程而言
 - 面向对象和面向过程都是一种思想
 - 面向过程
     + 强调的是功能行为
@@ -5065,7 +5064,7 @@ func main() {
 炮弹
 装甲车
 ```
--   隔壁老王在公车上牵着一条叼着热狗的草泥马
+- 隔壁老王在公车上牵着一条叼着热狗的草泥马
 ```
 老王
 热狗
@@ -5089,11 +5088,11 @@ func (p Person)Say()  {
 - 不过就是创建结构体的时候, 根据每个对象的特征赋值不同的属性罢了
 ```go
 // 3.创建一个结构体变量
-    p1 := Person{"lnj", 33}
-    per.say()
+p1 := Person{"lnj", 33}
+per.say()
 
-    p2 := Person{"zs", 18}
-    per.Say()
+p2 := Person{"zs", 18}
+per.Say()
 ```
 ---
 ## 不同包中变量、函数、方法、类型公私有问题
@@ -5313,7 +5312,7 @@ func (p Person)say()  {
 type Student struct {
 	Person
 	score float32
-} 
+}
 
 func main() {
 	stu := Student{Person{"zs", 18}, 59.9}
@@ -5346,7 +5345,7 @@ func (s Student)say()  {
 func main() {
 	stu := Student{Person{"zs", 18}, 59.9}
 	// 和属性一样, 访问时采用就近原则
-	stu.say() 
+	stu.say()
 	// 和属性一样, 方法同名时可以通过指定父类名称的方式, 访问父类方法
 	stu.Person.say()
 }
@@ -5368,7 +5367,7 @@ package main
 
 import "fmt"
 // 1.定义接口
-type Animal interface { 
+type Animal interface {
 	Eat()
 }
 type Dog struct {
@@ -5458,7 +5457,7 @@ type error interface {
   + 并且在errors 包中还提供了一个New方法, 用于创建实现了error接口的结构体对象, 并且在创建时就会把指定的字符串传递给这个结构体
 ```go
 // 指定包名为errors
-package errors 
+package errors
 // 定义了一个名称叫做errorString的结构体, 里面有一个字符串类型属性s
 type errorString struct {
 	s string
@@ -5629,8 +5628,8 @@ func test2()  {
 			fmt.Println(err) // 异常A
 		}
 	}()
-	
-	defer func() { 
+
+	defer func() {
 		panic("异常B")
 	}()
 	panic("异常A")
@@ -5825,7 +5824,7 @@ func main() {
 	// 将字符串转换为小写
 	res := strings.ToLower("ABC")
 	fmt.Println(res) // abc
-	
+
 	// 将字符串转换为大写
 	res = strings.ToUpper("abc")
 	fmt.Println(res) // ABC
@@ -6097,12 +6096,12 @@ import (
 )
 func main()  {
 	var t time.Time = time.Now()
-	fmt.Printf("当前的时间是: %d-%d-%d %d:%d:%d\n", t.Year(), 
+	fmt.Printf("当前的时间是: %d-%d-%d %d:%d:%d\n", t.Year(),
 		t.Month(), t.Day(), t.Hour(), t.Minute(), t.Second())
 
-	var dateStr = fmt.Sprintf("%d-%d-%d %d:%d:%d", t.Year(), 
+	var dateStr = fmt.Sprintf("%d-%d-%d %d:%d:%d", t.Year(),
 		t.Month(), t.Day(), t.Hour(), t.Minute(), t.Second())
-fmt.Println("当前的时间是:", dateStr)
+	fmt.Println("当前的时间是:", dateStr)
 }
 ```
 ```go
@@ -6126,7 +6125,7 @@ func main()  {
 ```
 - 时间常量
   + 一般用于指定时间单位, 和休眠函数配合使用
-  + 例如: 100毫秒, `100 *time.Millisecond `       
+  + 例如: 100毫秒, `100 *time.Millisecond `
 ```go
 const (
 	Nanosecond  Duration = 1    // 纳秒
@@ -6513,7 +6512,7 @@ func main()  {
 type file struct {
 	pfd     poll.FD
 	name    string
-	dirinfo *dirInfo 
+	dirinfo *dirInfo
 }
 type File struct {
 	*file // os specific
@@ -6608,7 +6607,7 @@ func main() {
 	}
 }
 ```
--  ReadBytes和ReadString函数(带缓冲区去读)
+- ReadBytes和ReadString函数(带缓冲区去读)
     + func (b *Reader) ReadBytes(delim byte) (line []byte, err error)
     + ReadBytes读取直到第一次遇到delim字节
     + func (b *Reader) ReadString(delim byte) (line string, err error)
@@ -6726,7 +6725,7 @@ func main() {
 	// 注意: Windows换行是\r\n
 	bytes := []byte{'l','n','j','\r','\n'}
 	fp.Write(bytes)
-	
+
 	fp.WriteString("www.it666.com\r\n")
 	fp.WriteString("www.itzb.com\r\n")
 	// 注意: Go语言采用UTF-8编码, 一个中文占用3个字节
@@ -6737,18 +6736,18 @@ func main() {
   + func OpenFile(name string, flag int, perm FileMode) (file *File, err error)
   + 第一个参数: 打开的路径
   + 第二个参数: 打开的模式
-  ```go
-  const (
-    O_RDONLY int = syscall.O_RDONLY // 只读模式打开文件
-    O_WRONLY int = syscall.O_WRONLY // 只写模式打开文件
-    O_RDWR   int = syscall.O_RDWR   // 读写模式打开文件
-    O_APPEND int = syscall.O_APPEND // 写操作时将数据附加到文件尾部
-    O_CREATE int = syscall.O_CREAT  // 如果不存在将创建一个新文件
-    O_EXCL   int = syscall.O_EXCL   // 和O_CREATE配合使用，文件必须不存在
-    O_SYNC   int = syscall.O_SYNC   // 打开文件用于同步I/O
-    O_TRUNC  int = syscall.O_TRUNC  // 如果可能，打开时清空文件
-  )
-  ```
+```go
+const (
+	O_RDONLY int = syscall.O_RDONLY // 只读模式打开文件
+	O_WRONLY int = syscall.O_WRONLY // 只写模式打开文件
+	O_RDWR   int = syscall.O_RDWR   // 读写模式打开文件
+	O_APPEND int = syscall.O_APPEND // 写操作时将数据附加到文件尾部
+	O_CREATE int = syscall.O_CREAT  // 如果不存在将创建一个新文件
+	O_EXCL   int = syscall.O_EXCL   // 和O_CREATE配合使用，文件必须不存在
+	O_SYNC   int = syscall.O_SYNC   // 打开文件用于同步I/O
+	O_TRUNC  int = syscall.O_TRUNC  // 如果可能，打开时清空文件
+)
+```
   + 第三个参数: 指定权限
     + 0没有任何权限
     + 1.执行权限(如果是可执行程序, 可以运行)
@@ -6758,26 +6757,26 @@ func main() {
     + 5.读权限和执行权限
     + 6.读权限和写权限
     + 7.读权限和写权限以及执行权限
-  ```go
-  const (
-    // 单字符是被String方法用于格式化的属性缩写。
-    ModeDir        FileMode = 1 << (32 - 1 - iota) // d: 目录
-    ModeAppend                                     // a: 只能写入，且只能写入到末尾
-    ModeExclusive                                  // l: 用于执行
-    ModeTemporary                                  // T: 临时文件（非备份文件）
-    ModeSymlink                                    // L: 符号链接（不是快捷方式文件）
-    ModeDevice                                     // D: 设备
-    ModeNamedPipe                                  // p: 命名管道（FIFO）
-    ModeSocket                                     // S: Unix域socket
-    ModeSetuid                                     // u: 表示文件具有其创建者用户id权限
-    ModeSetgid                                     // g: 表示文件具有其创建者组id的权限
-    ModeCharDevice                                 // c: 字符设备，需已设置ModeDevice
-    ModeSticky                                     // t: 只有root/创建者能删除/移动文件
-    // 覆盖所有类型位（用于通过&获取类型位），对普通文件，所有这些位都不应被设置
-    ModeType = ModeDir | ModeSymlink | ModeNamedPipe | ModeSocket | ModeDevice
-    ModePerm FileMode = 0777 // 覆盖所有Unix权限位（用于通过&获取类型位）
-  )
-  ```
+```go
+const (
+	// 单字符是被String方法用于格式化的属性缩写。
+	ModeDir        FileMode = 1 << (32 - 1 - iota) // d: 目录
+	ModeAppend                                     // a: 只能写入，且只能写入到末尾
+	ModeExclusive                                  // l: 用于执行
+	ModeTemporary                                  // T: 临时文件（非备份文件）
+	ModeSymlink                                    // L: 符号链接（不是快捷方式文件）
+	ModeDevice                                     // D: 设备
+	ModeNamedPipe                                  // p: 命名管道（FIFO）
+	ModeSocket                                     // S: Unix域socket
+	ModeSetuid                                     // u: 表示文件具有其创建者用户id权限
+	ModeSetgid                                     // g: 表示文件具有其创建者组id的权限
+	ModeCharDevice                                 // c: 字符设备，需已设置ModeDevice
+	ModeSticky                                     // t: 只有root/创建者能删除/移动文件
+	// 覆盖所有类型位（用于通过&获取类型位），对普通文件，所有这些位都不应被设置
+	ModeType = ModeDir | ModeSymlink | ModeNamedPipe | ModeSocket | ModeDevice
+	ModePerm FileMode = 0777 // 覆盖所有Unix权限位（用于通过&获取类型位）
+)
+```
 - 不带缓冲区写入
 ```go
 package main
@@ -7041,7 +7040,7 @@ func main() {
     - 例如我们通过C++编写了一个聊天程序, 然后通过C++编译器将编写好的代码编译成一个二进制的文件, 那么这个二进制的文件就是一个程序
 ## 什么是进程?
   + `进程`是指`程序`在操作系统中的一次执行过程, 是系统进行资源分配和调度的基本单位
-  + 例如: 
+  + 例如:
       * 启动记事本这个程序, 在系统中就会创建一个记事本进程
       * 再次启动记事本这个程序, 又会在系统中创建一个记事本进程
   + 程序和进程的关系就好比剧本和演出的关系
@@ -7064,9 +7063,8 @@ func main() {
 
 ---
 ## Go并发
-- Go在语言级别支持`协程`(多数语言在语法层面并不直接支持协程), 叫做goroutine. 
+- Go在语言级别支持`协程`(多数语言在语法层面并不直接支持协程), 叫做goroutine.
 - 人们把Go语言称之为21世纪的C语言. 第一是因为Go语言设计简单, 第二是因为21世纪最重要的就是并行程序设计.而Go从语言层面就支持并发和并行
-
 - Go并发小案例
 ```go
 package main
@@ -7105,103 +7103,98 @@ func main() {
 ```
 - runtime包中常用的函数
   + Gosched:使当前go程放弃处理器，以让其它go程运行
-  ```go
-	package main
-	import (
-		"fmt"
-		"runtime"
-	)
-	
-	func sing()  {
-		for i:=0; i< 10; i++{
-			fmt.Println("我在唱歌")
-			// Gosched使当前go程放弃处理器，以让其它go程运行。
-			// 它不会挂起当前go程，因此当前go程未来会恢复执行
-			runtime.Gosched()
-		}
+```go
+package main
+import (
+	"fmt"
+	"runtime"
+)
+func sing()  {
+	for i:=0; i< 10; i++{
+		fmt.Println("我在唱歌")
+		// Gosched使当前go程放弃处理器，以让其它go程运行。
+		// 它不会挂起当前go程，因此当前go程未来会恢复执行
+		runtime.Gosched()
 	}
-	func dance() {
-		for i:=0; i< 10; i++{
-			fmt.Println("我在跳舞---")
-			runtime.Gosched()
-		}
+}
+func dance() {
+	for i:=0; i< 10; i++{
+		fmt.Println("我在跳舞---")
+		runtime.Gosched()
 	}
-	
-	func main() {
-	
-		go sing()
-		go dance()
-		for{
-			;
-		}
+}
+func main() {
+	go sing()
+	go dance()
+	for{
+		;
 	}
-  ```
+}
+```
   + Goexit: 终止调用它的go程, 其它go程不会受影响
-  ```go
-	package main
-	import (
-		"fmt"
-		"runtime"
-	)
-	
-	func main() {
-		go func() {
-			fmt.Println("123")
-			// 退出当前协程
-			//runtime.Goexit()
-			// 退出当前函数
-			//return
-			test()
-			fmt.Println("456")
-		}()
-		for{
-			;
-		}
-	}
-	
-	func test()  {
-		fmt.Println("abc")
-		// 只会结束当前函数, 协程中的其它代码会继续执行
+```go
+package main
+import (
+	"fmt"
+	"runtime"
+)
+func main() {
+	go func() {
+		fmt.Println("123")
+		// 退出当前协程
+		//runtime.Goexit()
+		// 退出当前函数
 		//return
-		// 会结束整个协程, Goexit之后整个协程中的其它代码不会执行
-		runtime.Goexit()
-		fmt.Println("def")
+		test()
+		fmt.Println("456")
+	}()
+	for{
+		;
 	}
-  ```
+}
+func test()  {
+	fmt.Println("abc")
+	// 只会结束当前函数, 协程中的其它代码会继续执行
+	//return
+	// 会结束整个协程, Goexit之后整个协程中的其它代码不会执行
+	runtime.Goexit()
+	fmt.Println("def")
+}
+```
   + NumCPU: 返回本地机器的逻辑CPU个数
-  ```go
-	package main
-	import (
-		"fmt"
-		"runtime"
-	)
-	func main() {
-		num := runtime.NumCPU()
-		fmt.Println(num)
-	}
-  ```
+```go
+package main
+import (
+	"fmt"
+	"runtime"
+)
+func main() {
+	num := runtime.NumCPU()
+	fmt.Println(num)
+}
+```
   + GOMAXPROCS: 设置可同时执行的最大CPU数，并返回先前的设置
       * Go语言1.8之前, 需要我们手动设置
       * Go语言1.8之后, 不需要我们手动设置
-  ```
-	func main() {
+```go
+func main() {
 
- 		// 获取带来了CPU个数
- 		num := runtime.NumCPU()
- 		// 设置同时使用CPU个数
- 		runtime.GOMAXPROCS(num)
- 	}
-  ```
+	// 获取带来了CPU个数
+	num := runtime.NumCPU()
+	// 设置同时使用CPU个数
+	runtime.GOMAXPROCS(num)
+}
+```
 
 ## 多线程同步问题
 - 互斥锁
   + 互斥锁的本质是当一个goroutine访问的时候, 其它goroutine都不能访问
   + 这样就能实现资源同步, 但是在避免资源竞争的同时也降低了程序的并发性能. 程序由原来的并发执行变成了串行
-- 案例: 
+- 案例:
   + 有一个打印函数, 用于逐个打印字符串中的字符, 有两个人都开启了goroutine去打印
   + 如果没有添加互斥锁, 那么两个人都有机会输出自己的内容
   + 如果添加了互斥锁, 那么会先输出某一个的, 输出完毕之后再输出另外一个人的
-​```go
+```go
 package main
 import (
 	"fmt"
@@ -7216,8 +7209,8 @@ func printer(str string)  {
 	// 上厕所关门
 	lock.Lock()
 	for _, v := range str{
-		fmt.Printf("%c", v)
-		time.Sleep(time.Millisecond * 500)
+	fmt.Printf("%c", v)
+	time.Sleep(time.Millisecond * 500)
 	}
 	// 先来的人执行完毕之后, 把锁释放掉, 让其它人可以继续使用当前函数
 	// 上厕所开门
@@ -7236,7 +7229,7 @@ func main() {
 		;
 	}
 }
-  ```
+```
 ---
 ## 生产者消费者问题
 - 所谓的生产者消费者模型就是
@@ -7254,7 +7247,7 @@ func main() {
 - 如果在生产者和消费者之间添加一个缓冲区, 那么所有的人只需要将信件投递到邮箱即可, 邮递员不用关心有多少人要邮寄信件, 也不用依次取件, 只需要找到邮箱从邮箱中统一取件即可(效率提高)
 - 如果只有生产者和消费者, 那么如果邮寄信件太多邮递员无法一次拿走, 这个时候非常难办
 - 如果在生产者和消费者之间添加一个缓冲区, 那么如果信件太多可以先拿走一部分, 剩下的继续放到邮箱中下次再拿
--  ```... ...```
+- ```... ...```
 ---
 ## 生产者和消费者资源竞争问题
 - 例如生产比较慢, 而消费比较快, 就会导致消费者消费到错误数据
@@ -7360,7 +7353,7 @@ func main() {
 	// 注意点: 管道中只能存放声明的数据类型, 不能存放其它数据类型
 	//mych<-3.14
 
-	// 注意点: 管道中如果已经没有数据, 
+	// 注意点: 管道中如果已经没有数据,
 	// 并且检测不到有其它协程再往管道中写入数据, 那么再取就会报错
 	//num = <-mych
 	//fmt.Println("num = ", num)
@@ -7485,7 +7478,7 @@ func main() {
 
 	//go demo()
 	//go demo()
-	
+
 	// 3.只要在协程中操作了管道, 就会发生阻塞现象
 	go example()
 	fmt.Println("myCh之前代码")
@@ -7544,7 +7537,7 @@ func main() {
 	go consumer()
 	fmt.Println("exitCh之前代码")
 	<-exitCh
-	fmt.Println("exitCh之后代码") 
+	fmt.Println("exitCh之后代码")
 }
 ```
 ---
@@ -7669,15 +7662,15 @@ func main() {
 	myCh<-2
 	myCh<-3
 	fmt.Println(<-myCh)
-	
+
 	// 3.只写管道,只能写, 不能读
 	//	myCh2<-666
 	//	fmt.Println(<-myCh2)
 
-	// 4.指读管道, 只能读,不能写
+	// 4.只读管道, 只能读,不能写
 	fmt.Println(<-myCh3)
 	//myCh3<-666
-	
+
 	// 注意点: 管道之间赋值是地址传递, 以上三个管道底层指向相同容器
 }
 ```
@@ -7731,16 +7724,16 @@ func main() {
   + 如果没有可运行的case语句，且有default语句，那么就会执行default的动作。
   + 如果没有可运行的case语句，且没有default语句，select将阻塞，直到某个case通信可以运行
 ```go
-	select {
-	case IO操作1:
-		IO操作1读取或写入成功就执行
-	case IO操作2:
-		IO操作2读取或写入成功就执行
-	default:
-		如果上面case都没有成功，则进入default处理流程
-	}
+select {
+case IO操作1:
+	IO操作1读取或写入成功就执行
+case IO操作2:
+	IO操作2读取或写入成功就执行
+default:
+	如果上面case都没有成功，则进入default处理流程
+}
 ```
-- 注意点: 
+- 注意点:
   + select的case后面必须是一个IO操作
   + 一般情况下使用select结构不用写default
 ```go
@@ -7907,41 +7900,41 @@ func main() {
 
 ## 数据结构与算法
 
--  待更新
+- 待更新
 
 ## SQL 基础学习
 
--  待更新
+- 待更新
 
 # 前端基础知识
 
 ## html + css 入门
 
--  待更新
+- 待更新
 
 ## JavaScript 进阶
 
--  待更新
+- 待更新
 
 ## Vue 基础学习
 
--  待更新
+- 待更新
 
 # Go-Web 编程
 
--  待更新
+- 待更新
 
 # Go 语言爬虫
 
--  待更新
+- 待更新
 
 # Go 语言分布式开发
 
--  待更新
+- 待更新
 
 # Go 语言设计模式
 
--  待更新
+- 待更新
 
 # Go 语言学习资料
 
@@ -7996,12 +7989,3 @@ func main() {
 **《C语言保姆级教程》:**《**Go语言保姆级教程**》PDF 版本在[微信公众号](#公众号)后台回复 **"书籍"** 即可免费领取！
 
 ![我的公众号](https://cdn.nlark.com/yuque/0/2021/png/12653647/1636445801751-365907e4-cc4d-4db3-b806-d8105c605f81.png?x-oss-process=image%2Fresize%2Cw_1500%2Climit_0)
-
-
-
-
-
-
-
-
-
