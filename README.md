@@ -1,24 +1,124 @@
-> 1. **介绍**：**GoGuide** 致力于打造最易懂的 Go语言教程，`让天下没有难学的 Go 语言`
-> 2. **PDF版本** ： [**GoGuide** PDF1.0 版本下载](https://pan.baidu.com/s/1GRzdSG1cfvkL0AFvnK3N6Q )  提取码：dmqx
-> 3. **转载须知** ：以下所有文章与视频教程皆为我的原创，转载请联系我们，如发现恶意抄袭/搬运，会动用法律武器维护自己的权益，让我们一起维护一个良好的技术创作环境！
-> 4. **Star/Fork 支持**：开源不易，如果开源项目帮助你打开 Go 语言的学习大门，希望你能 **Star** 支持我们，你的支持就是我们持续更新的动力。
-> 5. **视频教程**：待开源 ......
-
-<p align="center">
-  <a href="https://mp.weixin.qq.com/s/PpeblHk6Ml4w8iNrrw8UAA"><img src="https://img.shields.io/badge/%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB-read-brightgreen" alt="在线阅读"></a>
-  <a href="#公众号"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7-%E4%BB%A3%E7%A0%81%E6%83%85%E7%BC%98-orange" alt="公众号"></a>
-  <a href="#公众号"><img src="https://img.shields.io/badge/PDF-Go%E8%AF%AD%E8%A8%80%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-orange" alt="PDF"></a>
-  <a href="#联系我"><img src="https://img.shields.io/badge/%E8%81%94%E7%B3%BB%E6%88%91%E4%BB%AC-weChat-orange" alt="联系我"></a>
-</p>
-
-
-# **免责声明**
-
-> GoGuide 致力于打造最易懂的 Go 学习之旅，设计该项目的过程中可能存在勘误，请认真斟酌识别，学习路线仅供参考，记住，适合自己的才是最好的。
-
-# 给我一个 Star！ ⭐
-
-如果您喜欢或者打算使用这个项目来学习或者来开始你的 Go 语言学习之路，给我一个 Star，谢谢！
+- [GoGuide 学习路线图](#goguide-学习路线图)
+- [C 语言](#c-语言)
+- [Go 语言](#go-语言)
+- [Go语言基础](#go语言基础)
+	- [什么是Go语言](#什么是go语言)
+	- [Go语言优势](#go语言优势)
+	- [Go语言发展史](#go语言发展史)
+	- [Go作者](#go作者)
+	- [Go语言现状](#go语言现状)
+	- [Go语言应用场景](#go语言应用场景)
+	- [如何学习Go语言](#如何学习go语言)
+	- [源文件对比](#源文件对比)
+	- [代码管理对比](#代码管理对比)
+	- [关键字对比](#关键字对比)
+	- [数据类型对比](#数据类型对比)
+	- [常量变量对比](#常量变量对比)
+	- [注释对比](#注释对比)
+	- [运算符对比](#运算符对比)
+	- [流程控制语句对比](#流程控制语句对比)
+	- [函数和方法对比](#函数和方法对比)
+	- [编程思想对比](#编程思想对比)
+	- [其它新增特性](#其它新增特性)
+	- [Go语言SDK安装和配置](#go语言sdk安装和配置)
+	- [安装Go语言开发工具](#安装go语言开发工具)
+	- [Goland安装](#goland安装)
+	- [Go语言程序组成](#go语言程序组成)
+	- [Go语言程序主函数定义格式](#go语言程序主函数定义格式)
+	- [Go语言HelloWorld](#go语言helloworld)
+	- [Go语言HelloWorld和C语言HelloWorld异同](#go语言helloworld和c语言helloworld异同)
+	- [Go语言注释](#go语言注释)
+	- [Go语言编码风格](#go语言编码风格)
+	- [关键字](#关键字)
+	- [C语言关键字和Go语言关键字对比](#c语言关键字和go语言关键字对比)
+	- [|imag|panic|recover|complex|](#imagpanicrecovercomplex)
+	- [标识符](#标识符)
+	- [Go语言数据类型](#go语言数据类型)
+	- [Go语言变量](#go语言变量)
+	- [Go语言变量定义注意点](#go语言变量定义注意点)
+	- [局部变量和全局变量](#局部变量和全局变量)
+	- [数据类型转换](#数据类型转换)
+	- [数值类型和字符串类型之间转换](#数值类型和字符串类型之间转换)
+	- [Go语言常量](#go语言常量)
+	- [输入函数](#输入函数)
+	- [go命令行操作指令](#go命令行操作指令)
+	- [通过os包获取命令行参数](#通过os包获取命令行参数)
+	- [通过flag包获取命令行参数](#通过flag包获取命令行参数)
+	- [os包和flag包获取命令行参数对比](#os包和flag包获取命令行参数对比)
+	- [算数运算符](#算数运算符)
+	- [关系算符](#关系算符)
+	- [逻辑运算符](#逻辑运算符)
+	- [位运算符](#位运算符)
+	- [赋值运算符](#赋值运算符)
+	- [其它运算符](#其它运算符)
+	- [运算符优先级](#运算符优先级)
+	- [Go语言流程控制基本概念](#go语言流程控制基本概念)
+	- [选择结构if](#选择结构if)
+	- [选择结构switch](#选择结构switch)
+	- [循环结构for](#循环结构for)
+	- [四大跳转](#四大跳转)
+- [Go 语言入门](#go-语言入门)
+	- [函数](#函数)
+	- [和C语言函数差异](#和c语言函数差异)
+	- [值传递和引用传递](#值传递和引用传递)
+	- [匿名函数](#匿名函数)
+	- [闭包](#闭包)
+	- [延迟调用](#延迟调用)
+	- [init函数](#init函数)
+	- [数组](#数组)
+	- [一维数组](#一维数组)
+	- [二维数组](#二维数组)
+	- [切片](#切片)
+	- [map(字典、映射)](#map字典映射)
+	- [结构体](#结构体)
+	- [普通指针](#普通指针)
+	- [指向数组指针](#指向数组指针)
+	- [指向切片的指针](#指向切片的指针)
+	- [指向字典指针](#指向字典指针)
+	- [指向结构体指针](#指向结构体指针)
+	- [指针作为函数参数和返回值](#指针作为函数参数和返回值)
+	- [方法](#方法)
+	- [接口](#接口)
+- [Go语言进阶](#go语言进阶)
+	- [面向对象基本概念](#面向对象基本概念)
+	- [面向对象思想](#面向对象思想)
+	- [面向对象和面向过程区别](#面向对象和面向过程区别)
+	- [面向对象的特点](#面向对象的特点)
+	- [类与对象的关系](#类与对象的关系)
+	- [如何设计一个类](#如何设计一个类)
+	- [如何分析一个类](#如何分析一个类)
+	- [如何定义一个类](#如何定义一个类)
+	- [如何通过类创建一个对象](#如何通过类创建一个对象)
+	- [不同包中变量、函数、方法、类型公私有问题](#不同包中变量函数方法类型公私有问题)
+	- [面向对象三大特性](#面向对象三大特性)
+	- [异常处理](#异常处理)
+	- [打印异常信息](#打印异常信息)
+	- [中断程序](#中断程序)
+	- [恢复程序](#恢复程序)
+	- [字符串相关方法](#字符串相关方法)
+	- [正则表达式](#正则表达式)
+	- [时间和日期函数](#时间和日期函数)
+	- [Go语言中调用C语言函数](#go语言中调用c语言函数)
+	- [C语言中调用Go语言函数(很少使用)](#c语言中调用go语言函数很少使用)
+	- [文件的打开和关闭](#文件的打开和关闭)
+	- [文件读取](#文件读取)
+	- [文件创建和写入](#文件创建和写入)
+	- [判断文件是否存在](#判断文件是否存在)
+	- [并发编程基本概念](#并发编程基本概念)
+	- [什么是串行?](#什么是串行)
+	- [什么是并行?](#什么是并行)
+	- [什么是并发?](#什么是并发)
+	- [什么是程序?](#什么是程序)
+	- [什么是进程?](#什么是进程)
+	- [什么是线程?](#什么是线程)
+	- [什么是协程?](#什么是协程)
+	- [Go并发](#go并发)
+	- [多线程同步问题](#多线程同步问题)
+	- [生产者消费者问题](#生产者消费者问题)
+	- [生产者和消费者资源竞争问题](#生产者和消费者资源竞争问题)
+	- [管道(Channel)](#管道channel)
+	- [select选择结构](#select选择结构)
+	- [定时器补充](#定时器补充)
 
 # GoGuide 学习路线图
 
@@ -525,7 +625,6 @@ func  (接收者 接受者类型)函数名称(形参列表)(返回值列表) {
  ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210612213308431.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDYxNzk2OA==,size_16,color_FFFFFF,t_70#pic_center)
 ![](https://img-blog.csdnimg.cn/img_convert/2f468dbedc7347d008f7d28deb6e3b53.png)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210612213356265.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDYxNzk2OA==,size_16,color_FFFFFF,t_70#pic_center)
----
 - 其它问题:
   +  提示没有安装JVM
   ![](https://img-blog.csdnimg.cn/img_convert/c552128ac16865d96f312cee0560e677.png)
@@ -5055,7 +5154,6 @@ func main() {
 - 定义类其实在定义类中的成员(成员变量和成员方法)
 - 拥有相同或者类似`属性`（状态特征）和`行为`（能干什么事）的对象都可以抽像成为一个类
 ![](https://img-blog.csdnimg.cn/img_convert/2ccc6a0a801fac3c43e3542588964497.png)
----
 ## 如何分析一个类
 - 一般名词都是类(名词提炼法)
     + 飞机发射两颗炮弹摧毁了8辆装甲车
@@ -6912,7 +7010,7 @@ func main() {
 }
 ```
 ---
-## 练习
+##@ 练习
 - 将一个文本文件拷贝到另外一个文件中
   + 尝试用上面学习的其它方法实现下
 ```go
@@ -7892,100 +7990,3 @@ func main() {
 	}
 }
 ```
-# 通用开发技能
-
-## Git版本控制
-
-[Git 版本控制](https://github.com/coderit666/GitGuide)
-
-## 数据结构与算法
-
-- 待更新
-
-## SQL 基础学习
-
-- 待更新
-
-# 前端基础知识
-
-## html + css 入门
-
-- 待更新
-
-## JavaScript 进阶
-
-- 待更新
-
-## Vue 基础学习
-
-- 待更新
-
-# Go-Web 编程
-
-- 待更新
-
-# Go 语言爬虫
-
-- 待更新
-
-# Go 语言分布式开发
-
-- 待更新
-
-# Go 语言设计模式
-
-- 待更新
-
-# Go 语言学习资料
-
-## Go开源书籍推荐
-
-- [《深入解析Go》](https://github.com/tiancaiamao/go-internals)
-
-- [《Go实战开发》](https://github.com/astaxie/Go-in-Action)
-- [《Go入门指南》](https://github.com/Unknwon/the-way-to-go_ZH_CN)
-- [《Go语言标准库》](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example)
-- [《Go Web 编程》](https://github.com/astaxie/build-web-application-with-golang)
-- [《Go语言博客实践》](https://github.com/achun/Go-Blog-In-Action)
-- [《Go语言学习笔记》](https://github.com/qyuhen/book)
-- [《Go语言高级编程》](https://github.com/chai2010/advanced-go-programming-book)
-
-- [Effective Go](https://golang.org/doc/effective_go.html) 英文版
-- [The Way to Go](https://github.com/Unknwon/the-way-to-go_ZH_CN) 中文版
-- [《Learning Go》](https://github.com/miekg/gobook)英文版
-
-# 编程常见问题汇总
-
-1. [如何学习编程？](https://mp.weixin.qq.com/s/sb9n8dFe96XR6pRxEpZx0Q)
-2. [如何选择一门编程语言？](https://mp.weixin.qq.com/s/8JeSy0fUYKVa2PrGRk8t-Q)
-3. [如何做好离职交接工作？](https://mp.weixin.qq.com/s/HprdWcnNyWonwuaI74vOTw)
-4. [学习编程的算法网站有哪些？](https://mp.weixin.qq.com/s/BM_osU-LX_JqELpahA59bQ)
-5. 持续更新 ing
-
----
-
-# 其他
-
-### 捐赠支持
-
-项目的发展离不开你的支持，如果 **GoGuide** 帮助到你打开编程的大门，请作者喝杯咖啡吧 ☕ 后续我们会继续完善更新！加油！
-
-[点击捐赠支持作者](https://www.yuque.com/fengy-sirat/irc9dr/tv7odv)
-
-### 联系我
-
-### 学习路线
-
-![各种技术的学习路线](https://cdn.nlark.com/yuque/0/2021/png/12653647/1636202999693-10aed6a8-00f0-476b-bc71-31ea47f477ba.png?x-oss-process=image%2Fresize%2Cw_1500%2Climit_0)
-
-整理了一份各个技术的学习路线，需要的小伙伴加我微信：“**leader_fengy** ”备注“ **学习路线**” 即可！
-
-![](https://cdn.nlark.com/yuque/0/2021/png/12653647/1635664638743-b3515c4e-842f-4a65-8240-bb330e3fe554.png)
-
-### 公众号
-
-如果大家想要实时关注我们更新的文章以及分享的干货的话，可以关注我们的微信公众号“**代码情缘**”。
-
-**《C语言保姆级教程》:**《**Go语言保姆级教程**》PDF 版本在[微信公众号](#公众号)后台回复 **"书籍"** 即可免费领取！
-
-![我的公众号](https://cdn.nlark.com/yuque/0/2021/png/12653647/1636445801751-365907e4-cc4d-4db3-b806-d8105c605f81.png?x-oss-process=image%2Fresize%2Cw_1500%2Climit_0)
