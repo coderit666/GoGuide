@@ -723,7 +723,7 @@ func main() {
 |imag|panic|recover|complex|
 ---
 ## 标识符
-- Go语言中的标识符和C语言中的标识符的含义样, 是指程序员在程序中自己起的名字(变量名称、函数名称等)
+- Go语言中的标识符和C语言中的标识符的含义一样, 是指程序员在程序中自己起的名字(变量名称、函数名称等)
 
 ---
 - 和C语言一样Go语言标识符也有一套`命名规则`, Go语言标识符的命名规则几乎和C语言一模一样
@@ -1055,7 +1055,7 @@ import "fmt"
 var num = 10 // 定义一个全局变量
 func main() {
 	num := 20 // 定义一个局部变量
-	fmt.Println("num = ", num)
+	fmt.Println("num = ", num) // 输出20
         test()
 }
 func test() {
@@ -1260,7 +1260,7 @@ int main(){
 	
 		var num7 rune = 11
 		var num8 int32
-		num8 = num7 // 这里不是隐式转换, 不报错的原因是byte的本质就是int32
+		num8 = num7 // 这里不是隐式转换, 不报错的原因是rune的本质就是int32
 		fmt.Println(num8)
 	}
   ```
@@ -1293,7 +1293,10 @@ int main(){
   + **数值类型转字符串类型`strconv..FormatXxx()`**
   ```go
 	package main
-	import "fmt"
+	import (
+		"fmt"
+		"strconv"
+	)
 	func main() {
 		var num1 int32 = 10
 		// 第一个参数: 需要被转换的整型,必须是int64类型
@@ -1311,7 +1314,7 @@ int main(){
 		// 第三个参数: 转换之后保留多少位小数, 传入-1按照指定类型有效位保留
 		// 第四个参数: 被转换数据的实际位数,float32就传32, float64就传64
 		// 将float64位实型,按照小数格式并保留默认有效位转换为字符串
-		str3 := strconv.FormatFloat(num5, 'f', -1, 64)
+		str3 := strconv.FormatFloat(num5, 'f', -1, 32)
 		fmt.Println(str3) // 3.1234567
 		str4 := strconv.FormatFloat(num5, 'f', -1, 64)
 		fmt.Println(str4) // 3.1234567890123457
@@ -1320,7 +1323,7 @@ int main(){
 		fmt.Println(str5) // 3.12
 		// 将float64位实型,按照指数格式并保留2位有效位转换为字符串
 		str6 := strconv.FormatFloat(num5, 'e', 2, 64)
-		fmt.Println(str6) // 3.12
+		fmt.Println(str6) // 3.12e+00
 
 		var num6 bool = true
 		str7 := strconv.FormatBool(num6)
@@ -1330,7 +1333,10 @@ int main(){
   + **字符串类型转数值类型`strconv.ParseXxx()`**
   ```go
 	package main
-	import "fmt"
+	import (
+		"fmt"
+		"strconv"
+	)
 	func main() {
 		var str1 string = "125"
 		// 第一个参数: 需要转换的数据
@@ -1620,14 +1626,14 @@ const(
 		fmt.Println("male = ", yao) // 2
       }
       ```
-      + 在同一个常量组中,如果iota被中断, 那么必须显示恢复
+      + 在同一个常量组中,如果iota被中断, 那么必须显式恢复
       ```go
     package main
     import "fmt"
     func main() {
 		const (
 			male = iota 
-			female = 666 // 这里被中断, 如果没有显示恢复, 那么下面没有赋值的常量都和上一行一样
+			female = 666 // 这里被中断, 如果没有显式恢复, 那么下面没有赋值的常量都和上一行一样
 			yao
 		)
 		fmt.Println("male = ", male) // 0
@@ -1642,7 +1648,7 @@ const(
 		const (
 			male = iota 
 			female = 666 // 这里被中断
-			yao = iota // 这里显示恢复, 会从当前常量组第一次出现iota的地方开始,每一行递增1, 当前是第3行,所以值就是2
+			yao = iota // 这里显式恢复, 会从当前常量组第一次出现iota的地方开始,每一行递增1, 当前是第3行,所以值就是2
 		)
 		fmt.Println("male = ", male) // 0
 		fmt.Println("male = ", female) // 666
@@ -1681,7 +1687,7 @@ const(
       }
       ```
 - Go语言fmt包实现了类似C语言printf和scanf的格式化I/O, 格式化动作源自C语言但更简单
-##输出函数
+## 输出函数
 - func Printf(format string, a ...interface{}) (n int, err error)
   + 和C语言用法几乎一模一样, 只不过新增了一些格式化符号
   ```go
@@ -3616,7 +3622,7 @@ package main
       fmt.Println(sce2 == nil) // false
    }
   ```
-    + 只声明当没有被创建的切片是不能使用的
+    + 只声明但没有被创建的切片是不能使用的
   ```go
   package main
   import "fmt"
@@ -3776,25 +3782,22 @@ package main
 import "fmt"
 func main() {
 	var dict = map[string]string{"name":"lnj", "age":"33", "gender":"male"}
-	//value, ok := dict["age"]
-	//if(ok){
-	//	fmt.Println("有age这个key,值为", value)
-	//}else{
-	//	fmt.Println("没有age这个key,值为", value)
-	//}
+
 	if value, ok := dict["age"]; ok{
 		fmt.Println("有age这个key,值为", value)
 	}
 }
-​```go
+​```
 - ***map遍历***
   + 注意: map和数组以及切片不同,map中存储的数据是无序的, 所以多次打印输出的顺序可能不同
-​```go
+
+```go
 	var dict = map[string]string{"name":"lnj", "age":"33", "gender":"male"}
 	for key, value := range dict{
 		fmt.Println(key, value)
 	}
 ```
+
 ## 结构体
 - Go语言中的结构体和C语言中结构体一样, 都是用来保存一组`不同类型的数据`
 - Go语言中的结构体和C语言中结构体一样, 都需要先定义结构体类型再利用结构体类型定义结构体变量
@@ -5615,7 +5618,7 @@ func test1()  {
 	panic("异常B")
 }
 func main() {
-	test1(10, 0)
+	test1()
 }
 ```
   + 如果有异常写在defer中, 那么只有defer中的异常会被捕获
@@ -5636,7 +5639,7 @@ func test2()  {
 	panic("异常A")
 }
 func main() {
-	test1(10, 0)
+	test2()
 }
 ```
 
@@ -5721,7 +5724,7 @@ func main() {
 	// 会将字符串先转换为[]rune, 然后遍历rune切片逐个取出传给自定义函数
 	// 只要函数返回true,代表符合我们的需求, 既立即停止查找
 	res = strings.IndexFunc("hello 李南江", custom)
-	fmt.Println(res) // 6
+	fmt.Println(res) // 4
 
 	// 倒序查找`子串`在字符串第一次出现的位置, 找不到返回-1
 	res := strings.LastIndex("hello 李南江", "l")
